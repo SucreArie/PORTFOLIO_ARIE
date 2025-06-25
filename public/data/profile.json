@@ -1,5 +1,5 @@
 {
-    "name": "Mark Choi",
+    "name": "Arielle NOUANTI",
 
     "profilePictureUrl": "images/pictures/profile-picture.jpg",
     "resumePdfUrl": "",
@@ -10,8 +10,8 @@
 
     "locales": {
         "en": {
-            "localized_name": "Mark Choi",
-            "localized_name_stylized": " [[Mark {{Choi}}]]",
+            "localized_name": "Arielle NOUANTI",
+            "localized_name_stylized": " [[Arielle {{NOUANTI}}]]",
             "status_message_available_for_freelance": "Available for freelance!",
             "roles": [
                 "Backend Developer",
@@ -32,10 +32,10 @@
         "fr": {
             "status_message_available_for_freelance": "Disponible pour freelance !",
             "roles": [
-                "Développeur Backend",
-                "Développeur Frontend",
-                "Ingénieur DevOps",
-                "Designer UX"
+                "Développeuse full-stack"
+                
+                
+                
             ]
         },
         "ko": {

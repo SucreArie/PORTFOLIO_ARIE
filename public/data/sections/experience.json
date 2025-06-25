@@ -66,9 +66,9 @@
                         },
                         "fr": {
                             "title": "Développeur {{Backend}}",
-                            "province": "Toronto",
-                            "country": "Canada",
-                            "institution": "Sapphire Studio",
+                            "province": "Cotonou",
+                            "country": "Bénin",
+                            "institution": "Solutech Coporate",
                             "text": "Développement et maintenance de [[systèmes backend évolutifs]] pour divers clients, optimisation des performances des bases de données et mise en place d’API RESTful pour améliorer les fonctionnalités des applications.",
                             "list": [],
                             "tags": []
@@ -111,11 +111,11 @@
                             "tags": []
                         },
                         "fr": {
-                            "title": "Ingénieur {{Full-Stack}}",
-                            "province": "",
-                            "country": "Télétravail",
-                            "institution": "Coursera",
-                            "text": "Participation à l'amélioration du site web de Coursera en développant de nouvelles fonctionnalités et en optimisant l’expérience utilisateur, en utilisant des technologies frontend et backend pour assurer un fonctionnement fluide.",
+                            "title": "Developpeuse web {{Full-Stack}}",
+                            "province": "Cotonou",
+                            "country": "Bénin",
+                            "institution": "Uppersoft group",
+                            "text": "Developpement d'une application de recherche de sang avec integration du map pour la localisation raoide et eficace des produits sanguins tout en optimisant l’expérience utilisateur et en utilisant des technologies frontend et backend pour assurer un fonctionnement fluide.",
                             "list": [],
                             "tags": []
                         },
@@ -157,11 +157,11 @@
                             "tags": []
                         },
                         "fr": {
-                            "title": "Ingénieur {{Backend}}",
-                            "province": "New York",
-                            "country": "États-Unis",
-                            "institution": "Adobe Inc",
-                            "text": "Participation au développement de systèmes backend robustes pour Adobe Creative Cloud, intégration de services tiers et amélioration de l’efficacité du traitement des données via des fonctions cloud.",
+                            "title": "Developpeuse {{Frontend}}",
+                            "province": "Cotonou",
+                            "country": "Bénin",
+                            "institution": "Icode",
+                            "text": "Participation au développement  frontend de la startup de formation en ligne en partant de la gestion des formulaire  et de filtrage des cours à l'optimisation du responsive design avec l'ajout des animation et effets de transistion .",
                             "list": [],
                             "tags": []
                         },
@@ -215,14 +215,14 @@
                             "tags": []
                         },
                         "fr": {
-                            "title": "Développeur {{Senior Backend}}",
-                            "province": "Californie",
-                            "country": "États-Unis",
-                            "institution": "Apple Inc",
-                            "text": "Responsable d'une équipe de développeurs pour concevoir et mettre en œuvre des solutions backend pour les services Apple, en se concentrant sur :",
+                            "title": "Développeuse {{Nocode}}",
+                            "province": "Cotonou",
+                            "country": "Bénin",
+                            "institution": "RAB TECH",
+                            "text": "Developpement du site de vente de teeshirts en ligne pour la société KOLI-KOLI Bénin avec le CMS Wordpress :",
                             "list": [
-                                "La sécurité",
-                                "L’évolutivité pour gérer des millions d’utilisateurs dans le monde",
+                                "Creation de quelques jeux (jeux de voiture, jeux de pendule, etc.) avec du VB.Net",
+                                "Création des modèles de CV professionnels avec Wordpress",
                                 "Le développement d’API RESTful",
                                 "L’optimisation des performances des bases de données avec PostgreSQL",
                                 "La création de services avec Swift, PHP et GraphQL"
