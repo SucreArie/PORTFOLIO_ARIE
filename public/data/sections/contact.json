@@ -27,7 +27,6 @@
             }
         }
     },
-
     "articles": [
         {
             "id": 1,
@@ -65,7 +64,6 @@
             },
             "items": null
         },
-
         {
             "id": 2,
             "component": "ArticleInfoList",
@@ -84,8 +82,8 @@
                     "id": 1,
                     "faIcon": "fa-solid fa-phone",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "+1 (123) 456-7890",
-                    "link": {"href": "tel:11234567890", "tooltipString": "call_me"},
+                    "label": "(+229) 0156326472",
+                    "link": {"href": "tel:0156323472", "tooltipString": "call_me"},
                     "locales": {
                         "en": {"title": "Phone"},
                         "es": {"title": "Teléfono"},
@@ -97,8 +95,8 @@
                     "id":2,
                     "faIcon": "fa-solid fa-envelope",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "mark.choi@email.com",
-                    "link": {"href": "mailto:mark.choi@email.com", "tooltipString": "email_me"},
+                    "label": "ariellenouanti@gmail.com",
+                    "link": {"href": "arielle.nouanti@gmail.com", "tooltipString": "email_me"},
                     "locales": {
                         "en": {"title": "E-mail"},
                         "ko": {"title": "이메일"}
@@ -108,8 +106,8 @@
                     "id": 3,
                     "faIcon": "fa-brands fa-linkedin",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@markchoi",
-                    "link": {"href": "https://linkedin.com/in/", "tooltipString": "open_website"},
+                    "label": "@arielle.nouanti",
+                    "link": {"href": "https://www.linkedin.com/in/arielle-nouanti/", "tooltipString": "open_website"},
                     "locales": {
                         "en": {"title": "LinkedIn"},
                         "ko": {"title": "링크드인"}
@@ -119,8 +117,8 @@
                     "id": 4,
                     "faIcon": "fa-brands fa-facebook",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "Mark Choi",
-                    "link": {"href": "https://facebook.com/profiles/mark.choi.855/default", "tooltipString": "open_website"},
+                    "label": "Arielle NOUANTI",
+                    "link": {"href": "https://www.facebook.com/profile.php?id=100077732044619", "tooltipString": "open_website"},
                     "locales": {
                         "en": {"title": "Facebook"},
                         "ko": {"title": "페이스북"}
@@ -130,7 +128,7 @@
                     "id": 5,
                     "faIcon": "fa-brands fa-instagram",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@codingmark",
+                    "label": "@tany",
                     "link": {"href": "https://instagram.com/", "tooltipString": "open_website"},
                     "locales": {
                         "en": {"title": "Instagram"},
@@ -141,8 +139,8 @@
                     "id": 6,
                     "faIcon": "fa-brands fa-tiktok",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@markchoi",
-                    "link": {"href": "https://tiktok.com/@markchoi", "tooltipString": "open_website"},
+                    "label": "@arielle.nouanti",
+                    "link": {"href": "https://tiktok.com/@arielle.nouanti", "tooltipString": "open_website"},
                     "locales": {
                         "en": { "title": "TikTok" },
                         "ko": { "title": "틱톡" }

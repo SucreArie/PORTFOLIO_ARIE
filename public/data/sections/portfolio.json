@@ -81,9 +81,8 @@
                             "images/pictures/screenshot-demo-landscape-3.png",
                             "images/pictures/screenshot-demo-landscape-4.png",
                             "images/pictures/screenshot-demo-landscape-5.png"
-                        ],
-                        "screenshotsAspectRatio": "16:9",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=32XsfeIX_rM"
+                        ]
+                       
                     },
                     "locales": {
                         "en": {
@@ -129,17 +128,17 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "MailM8",
+                            "title": "CVPro",
                             "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
+                            "tags": ["WordPress", "CV", "Profesionnel"]
                         },
                         "es": {
                             "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
                             "tags": ["Flutter", "Correo", "Comunicación"]
                         },
                         "fr": {
-                            "text": "Un client de messagerie multiplateforme construit avec <b>Flutter</b>, offrant une communication efficace et une interface intuitive pour <b>gérer les e-mails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
+                            "text": "Creation de plusieurs models de CV avec <b>WordPress</b>, pour permettre aux clients de bénéficier d'un model de CV professionnel facilement modifiable  <b>avec une possibilité de deploiement en ligne</b>.",
+                            "tags": ["WordPress", "CV", "Profesionnel"]
                         },
                         "ko": {
                             "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
@@ -216,9 +215,9 @@
                             "tags": ["Next.js", "Finanzas", "Dinero"]
                         },
                         "fr": {
-                            "title": "SmartCash",
-                            "text": "Un site web financier construit avec <b>Next.js</b>, permettant aux utilisateurs de <b>suivre les budgets</b> et de gérer leur argent avec des graphiques interactifs et des analyses.",
-                            "tags": ["Next.js", "Finance", "Argent"]
+                            "title": "GRB Paie",
+                            "text": "Une application web de gestion de paiements développée avec <b>Laravel</b>, conçue pour automatiser le traitement des salaires et des charges. Elle permet de gérer les contrats, les primes, les heures supplémentaires, les absences, les retenues fiscales et sociales, avec génération automatique des fiches de paie et tableaux de synthèse.",
+                            "tags": ["Paiement", "salaire", "Argent"]
                         },
                         "ko": {
                             "title": "SmartCash",
@@ -256,9 +255,9 @@
                             "tags": ["Swift", "Fotografía", "Cámara"]
                         },
                         "fr": {
-                            "title": "Snappy",
-                            "text": "Une application de photographie puissante conçue avec <b>Swift</b> pour iOS et Android, avec des <b>contrôles avancés de la caméra</b>, des outils d'édition et des filtres IA pour des améliorations rapides des photos.",
-                            "tags": ["Swift", "Photographie", "Caméra"]
+                            "title": "Affilium Academy",
+                            "text": "Une application de formation en ligne développée avec <b>Laravel</b> et <b>JavaScript</b>, offrant une interface simple et intuitive pour suivre des cours à distance. Elle intègre un système d'inscription sécurisé, des filtres de recherche de cours et un design responsive pour une utilisation fluide sur ordinateur, tablette ou mobile.",
+                            "tags": ["Laravel", "JavaScript", "Formation"]
                         },
                         "ko": {
                             "title": "Snappy",
@@ -295,9 +294,9 @@
                             "tags": ["WooCommerce", "Comida", "Postres"]
                         },
                         "fr": {
-                            "title": "Sweet Scoops",
-                            "text": "Un site de recettes construit avec <b>WordPress</b> et WooCommerce, présentant une riche collection de <b>recettes de desserts</b> et une plateforme de commerce électronique intégrée.",
-                            "tags": ["WooCommerce", "Cuisine", "Desserts"]
+                            "title": "KOLI-KOLI",
+                            "text": "Un site e-commerce développé avec <b>WordPress</b> et <b>WooCommerce</b>, dédié à la vente de t-shirts tendance. Il propose une boutique en ligne claire et moderne, un système de paiement sécurisé et une gestion simplifiée des commandes pour offrir une expérience d'achat fluide aux clients.",
+                            "tags": ["WooCommerce", "t-shirts", "e-commerce"]
                         },
                         "ko": {
                             "title": "Sweet Scoops",
@@ -334,9 +333,9 @@
                             "tags": ["Django", "Música", "Rock"]
                         },
                         "fr": {
-                            "title": "RockVerse",
-                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
-                            "tags": ["Django", "Musique", "Rock"]
+                            "title": "Solutech coporate",
+                            "text": "Site vitrine professionnel refondu avec <b>WordPress</b> pour améliorer la visibilité et la présentation des services numériques de l’entreprise. Ce site dynamique met en avant les solutions digitales proposées, les projets réalisés et les informations clés à travers une interface moderne, responsive et optimisée pour une navigation fluide.",
+                            "tags": ["service", "Solutech", "Frontend"]
                         },
                         "ko": {
                             "title": "RockVerse",
