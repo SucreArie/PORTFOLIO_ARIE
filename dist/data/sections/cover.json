@@ -1,0 +1,268 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Mark Choi!}}"
+            },
+            "es": {
+                "title_short": "¡Saludos!",
+                "title_short_nav": "Sobre mí",
+                "title_long_prefix": "Hola...",
+                "title_long": "Soy {{Mark Choi!}}"
+            },
+            "fr": {
+                "title_short": "Salut !",
+                "title_short_nav": "À propos",
+                "title_long_prefix": "Salut...",
+                "title_long": "Je suis {{Arielle NOUANTI !}}"
+            },
+            "ko": {
+                "title_short": "환영합니다!",
+                "title_short_nav": "소개",
+                "title_long_prefix": "안녕하세요...",
+                "title_long": "저는 {{최민석}}입니다!"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Cotonou – Bénin",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "arielle.nouanti@gmail.com",
+                    "link": {"href": "arielle.nouanti@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@ariellenouanti",
+                    "link": {"href": "https://gitlab.com/ariellenouanti", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."},
+                "es": {"title": "{{Un poco}} sobre mí..."},
+                "fr": {"title": "{{Un peu}} à propos de moi..."},
+                "ko": {"title": "저에 {{대해 조금}}..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I’m a {{PHP}} developer with [[over a decade]] of experience, specializing in backend development with some frontend work as well. I also have hands-on experience with C++, C#, Go, and Python in production environments.</p><p>This diverse background gives me the flexibility to adapt to a wide range of project needs, whether it's building scalable APIs, optimizing system performance, or contributing to full-stack solutions.</p><p>I look forward to collaborating [[with you!]]</p>"
+                        },
+                        "es": {
+                            "text": "<p>Soy un desarrollador de {{PHP}} con [[más de una década]] de experiencia, especializado en desarrollo backend y con algo de experiencia en frontend. También tengo experiencia práctica en entornos de producción con C++, C#, Go y Python.</p><p>Este variado historial me permite adaptarme a una amplia gama de necesidades de proyectos, ya sea construyendo APIs escalables, optimizando el rendimiento de sistemas o contribuyendo a soluciones full-stack.</p><p>¡Espero con interés colaborar [[contigo!]]</p>"
+                        },
+                        "fr": {
+                            "text": "<p>Je suis développeuse {{PHP}} avec [[plus d'un ans]] d'expérience, spécialisée dans le développement backend avec un peu de travail en frontend également. J'ai aussi de l'expérience en production avec les technologies C++, C#.</p><p>Ce parcours diversifié me permet de m'adapter à une large gamme de besoins de projets, qu'il s'agisse de créer des API évolutives, d'améliorer les performances système ou de participer à des solutions full-stack.</p><p>Je suis impatiente de collaborer [[avec vous !]]</p>"
+                        },
+                        "ko": {
+                            "text": "<p>저는 {{백엔드}} 개발을 전문으로 하고, 프론트엔드 작업도 일부 수행해온 [[10년 이상의]] 경력을 가진 PHP 개발자입니다. 또한 C++, C#, Go, Python 스택을 사용한 프로덕션 경험도 있습니다.</p><p>이 다양한 배경 덕분에 프로젝트의 다양한 요구에 유연하게 대처할 수 있습니다. 확장 가능한 API 구축, 시스템 성능 최적화, 또는 전체 스택 솔루션에 기여하는 등 다양한 분야에 능숙하게 참여할 수 있습니다. 저는 각 프로젝트에 맞는 최적의 도구를 찾는 것과 새로운 도전을 즐깁니다.</p><p>[[당신과 협업]]하기를 기대하고 있습니다!</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Personal {{interests}}"},
+                "es": {"title": "Intereses {{personales}}"},
+                "fr": {"title": "Intérêts {{personnels}} "},
+                "ko": {"title": "개인 {{관심사}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-video",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{AI}} video editing",
+                            "text": "Learning to use AI tools to enhance my videos."
+                        },
+                        "es": {
+                            "title": "Edición de video con {{AI}}",
+                            "text": "Aprendiendo a usar herramientas de IA para mejorar mis videos."
+                        },
+                        "fr": {
+                            "title": "Édition vidéo avec {{IA}}",
+                            "text": "Apprendre à utiliser des outils d'IA pour améliorer mes vidéos."
+                        },
+                        "ko": {
+                            "title": "{{AI}} 비디오 편집",
+                            "text": "AI 도구를 사용하여 내 영상을 향상시키는 방법 배우기."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-palette",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Arts}} & Illustration",
+                            "text": "Practicing digital art and exploring new styles."
+                        },
+                        "es": {
+                            "title": "{{Arte}} y Ilustración",
+                            "text": "Practicando arte digital y explorando nuevos estilos."
+                        },
+                        "fr": {
+                            "title": "{{Arts}} & Illustration",
+                            "text": "Pratiquer l'art numérique et explorer de nouveaux styles."
+                        },
+                        "ko": {
+                            "title": "{{예술}} 및 일러스트레이션",
+                            "text": "디지털 아트를 연습하고 새로운 스타일을 탐험하기."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Investing}} & Finance",
+                            "text": "Learning the basics of stocks and personal finance."
+                        },
+                        "es": {
+                            "title": "{{Inversión}} y Finanzas",
+                            "text": "Aprendiendo los conceptos básicos de acciones y finanzas personales."
+                        },
+                        "fr": {
+                            "title": "{{Investissement}} & Finance",
+                            "text": "Apprendre les bases des actions et des finances personnelles."
+                        },
+                        "ko": {
+                            "title": "{{투자}} 및 재정 관리",
+                            "text": "주식과 개인 재정의 기초 배우기."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-window-restore",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{UX}} design",
+                            "text": "Studying user experience principles."
+                        },
+                        "es": {
+                            "title": "Diseño {{UX}}",
+                            "text": "Estudiando los principios de la experiencia del usuario."
+                        },
+                        "fr": {
+                            "title": "Conception {{UX}}",
+                            "text": "Étudier les principes de l'expérience utilisateur."
+                        },
+                        "ko": {
+                            "title": "{{UX}} 디자인",
+                            "text": "사용자 경험 원칙을 공부하기."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-camera-retro",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Photography}} & Photoshop",
+                            "text": "Enhancing photos through creative editing techniques."
+                        },
+                        "es": {
+                            "title": "{{Fotografía}} y Photoshop",
+                            "text": "Mejorando fotos a través de técnicas creativas de edición."
+                        },
+                        "fr": {
+                            "title": "{{Photographie}} & Photoshop",
+                            "text": "Améliorer des photos avec des techniques de montage créatives."
+                        },
+                        "ko": {
+                            "title": "{{사진}} 및 포토샵",
+                            "text": "창의적인 편집 기술을 통해 사진을 향상시키기."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-drum-steelpan",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "Playing {{drums}}",
+                            "text": "Exploring different genres and improving my skills."
+                        },
+                        "es": {
+                            "title": "Tocar {{batería}}",
+                            "text": "Explorando diferentes géneros y mejorando mis habilidades."
+                        },
+                        "fr": {
+                            "title": "Jouer de la {{batterie}}",
+                            "text": "Explorer différents genres et améliorer mes compétences."
+                        },
+                        "ko": {
+                            "title": "{{드럼}} 연주",
+                            "text": "다양한 장르를 탐험하고 기술을 향상시키기."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
