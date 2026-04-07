@@ -1,19 +1,19 @@
-import "/src/styles/app.scss"
+import "./styles/app.scss"
 import {StrictMode, useEffect, useState} from 'react'
 import {createRoot} from 'react-dom/client'
-import {useApi} from "/src/hooks/api.js"
-import {useConstants} from "/src/hooks/constants.js"
-import {useUtils} from "/src/hooks/utils.js"
-import Preloader from "/src/components/loaders/Preloader.jsx"
-import DataProvider, {useData} from "/src/providers/DataProvider.jsx"
-import LanguageProvider from "/src/providers/LanguageProvider.jsx"
-import ViewportProvider from "/src/providers/ViewportProvider.jsx"
-import ThemeProvider from "/src/providers/ThemeProvider.jsx"
-import LocationProvider from "/src/providers/LocationProvider.jsx"
-import FeedbacksProvider from "/src/providers/FeedbacksProvider.jsx"
-import InputProvider from "/src/providers/InputProvider.jsx"
-import NavigationProvider from "/src/providers/NavigationProvider.jsx"
-import Portfolio from "/src/components/Portfolio.jsx"
+import {useApi} from "./hooks/api.js"
+import {useConstants} from "./hooks/constants.js"
+import {useUtils} from "./hooks/utils.js"
+import Preloader from "./components/loaders/Preloader.jsx"
+import DataProvider, {useData} from "./providers/DataProvider.jsx"
+import LanguageProvider from "./providers/LanguageProvider.jsx"
+import ViewportProvider from "./providers/ViewportProvider.jsx"
+import ThemeProvider from "./providers/ThemeProvider.jsx"
+import LocationProvider from "./providers/LocationProvider.jsx"
+import FeedbacksProvider from "./providers/FeedbacksProvider.jsx"
+import InputProvider from "./providers/InputProvider.jsx"
+import NavigationProvider from "./providers/NavigationProvider.jsx"
+import Portfolio from "./components/Portfolio.jsx"
 
 /** Initialization Script... **/
 let container = null
@@ -54,12 +54,29 @@ const AppEssentialsWrapper = ({children}) => {
     const [settings, setSettings] = useState()
 
     useEffect(() => {
-        if (window.location.pathname !== utils.file.BASE_URL)
-            window.history.pushState({}, '', utils.file.BASE_URL)
-
-        utils.file.loadJSON("/data/settings.json").then(response => {
+        /** 
+         * SOLUTION RADICALE : 
+         * On force le chargement via l'origine exacte du serveur (localhost:5173).
+         * Cela empêche le navigateur de chercher "http://data/".
+         * 
+         * On s'assure aussi que BASE_URL n'est pas utilisé pour corrompre les chemins.
+         **/
+        utils.file.BASE_URL = "" 
+        
+        const settingsUrl = window.location.origin + "/data/settings.json"
+        
+        fetch(settingsUrl)
+            .then(res => {
+                if(!res.ok) throw new Error("Fichier settings.json introuvable")
+                return res.json()
+            })
+            .then(response => {
             _applyDeveloperSettings(response)
             setSettings(response)
+        }).catch(err => {
+            console.error("Erreur critique de chargement :", err)
+            // Fallback pour éviter l'écran noir si le fetch échoue
+            setSettings({ preloaderSettings: { enabled: false }, templateSettings: { defaultLanguageId: 'en' } })
         })
 
         api.analytics.reportVisit().then(() => {})

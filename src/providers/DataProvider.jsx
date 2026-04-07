@@ -65,10 +65,10 @@ function DataProvider({ children, settings }) {
     }, [status === DataProviderStatus.STATUS_LOADED])
 
     const _loadData = async () => {
-        const jStrings = await utils.file.loadJSON("/data/strings.json")
-        const jProfile = await utils.file.loadJSON("/data/profile.json")
-        const jCategories = await utils.file.loadJSON("/data/categories.json")
-        const jSections = await utils.file.loadJSON("/data/sections.json")
+        const jStrings = await _fetchJson(window.location.origin + "/data/strings.json")
+        const jProfile = await _fetchJson(window.location.origin + "/data/profile.json")
+        const jCategories = await _fetchJson(window.location.origin + "/data/categories.json")
+        const jSections = await _fetchJson(window.location.origin + "/data/sections.json")
 
         const categories = jCategories.categories
         const sections = jSections.sections
@@ -109,7 +109,7 @@ function DataProvider({ children, settings }) {
                 let jSectionData = {}
 
                 try {
-                    jSectionData = await utils.file.loadJSON(sectionJsonPath)
+                    jSectionData = await _fetchJson(window.location.origin + sectionJsonPath)
                 } catch (e) {
                     jSectionData = {}
                 }
@@ -131,6 +131,16 @@ function DataProvider({ children, settings }) {
 
         return {success: true}
     }
+
+    // Helper function to fetch JSON, similar to the radical solution in main.jsx
+    const _fetchJson = async (url) => {
+        const res = await fetch(url)
+        if (!res.ok) {
+            throw new Error(`Failed to load JSON from ${url}: ${res.statusText}`)
+        }
+        return res.json()
+    }
+
 
     const getProfile = () => {
         return jsonData?.profile || {}

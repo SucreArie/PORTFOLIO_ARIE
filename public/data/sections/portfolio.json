@@ -4,7 +4,7 @@
       "en": {
         "title_short": "Portfolio",
         "title_short_nav": "Portfolio",
-        "title_long_prefix": "Take a look at",
+        "title_long_prefix": "Discover",
         "title_long": "My {{Portfolio}}"
       },
       "es": {
@@ -73,7 +73,7 @@
           "locales": {
             "en": {
               "title": "GestCaisse",
-              "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
+              "text": "A <b>RESTful API</b> backend built with <b>Laravel</b>, designed for cash management for an internal application. This project ensured secure payment processing, fund management, and real-time transaction tracking.",
               "tags": ["API", "REST", "Backend"]
             },
             "es": {
@@ -81,7 +81,7 @@
               "tags": ["API", "REST", "Backend"]
             },
             "fr": {
-              "text": "Un backend <b>API RESTful</b> construit avec <b>Laracel</b>, conçu pour la gestion de caisse pour une application interne. Ce projet a permis d’assurer le traitement sécurisé des paiements, la gestion des entrées/sorties de fonds, et le suivi des transactions en temps réel.",
+              "text": "Un backend <b>API RESTful</b> construit avec <b>Laravel</b>, conçu pour la gestion de caisse pour une application interne. Ce projet a permis d’assurer le traitement sécurisé des paiements, la gestion des entrées/sorties de fonds, et le suivi des transactions en temps réel.",
               "tags": ["API", "REST", "Backend"]
             },
             "ko": {
@@ -100,8 +100,8 @@
           "locales": {
             "en": {
               "title": "CVPro",
-              "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
-              "tags": ["WordPress", "CV", "Profesionnel"]
+              "text": "Creation of several CV models with <b>WordPress</b>, allowing clients to benefit from a professional CV template that is easily editable <b>with the possibility of online deployment</b>.",
+              "tags": ["WordPress", "CV", "Professional"]
             },
             "es": {
               "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
@@ -135,8 +135,8 @@
           "locales": {
             "en": {
               "title": "BloodSearch",
-              "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-              "tags": ["React", "Organization", "Notes"]
+              "text": "BloodSearch is a web platform developed to facilitate online blood searches in Benin. The application allows users to quickly locate compatible donors or transfusion centers based on their blood group and geographic location.",
+              "tags": ["Bootstrap", "SQL", "Laravel"]
             },
             "es": {
               "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
@@ -170,9 +170,9 @@
           },
           "locales": {
             "en": {
-              "title": "SmartCash",
-              "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
-              "tags": ["Next.js", "Finance", "Money"]
+              "title": "GRB Paie",
+              "text": "A payroll management web application developed with <b>Laravel</b>, designed to automate the processing of salaries and taxes. It manages contracts, bonuses, overtime, absences, tax and social deductions, with automatic generation of payslips and summary tables.",
+              "tags": ["Payment", "Payroll", "Money"]
             },
             "es": {
               "title": "SmartCash",
@@ -211,9 +211,9 @@
           },
           "locales": {
             "en": {
-              "title": "Snappy",
-              "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
-              "tags": ["Swift", "Photography", "Camera"]
+              "title": "Affilium Academy",
+              "text": "An online training application developed with <b>Laravel</b> and <b>JavaScript</b>, offering a simple and intuitive interface for distance learning. It integrates a secure registration system, course search filters, and a responsive design for smooth use on computer, tablet, or mobile.",
+              "tags": ["Laravel", "JavaScript", "Training"]
             },
             "es": {
               "title": "Snappy",
@@ -252,9 +252,9 @@
           },
           "locales": {
             "en": {
-              "title": "Sweet Scoops",
-              "text": "A recipe website built with <b>WordPress</b> and WooCommerce, featuring a rich collection of <b>dessert recipes</b> and an integrated e-commerce platform.",
-              "tags": ["WooCommerce", "Food", "Desserts"]
+              "title": "KOLI-KOLI",
+              "text": "An e-commerce site developed with <b>WordPress</b> and <b>WooCommerce</b>, dedicated to the sale of trendy t-shirts. It offers a clear and modern online store, a secure payment system, and simplified order management to provide a smooth shopping experience for customers.",
+              "tags": ["WooCommerce", "T-shirts", "E-commerce"]
             },
             "es": {
               "title": "Sweet Scoops",
@@ -293,9 +293,9 @@
           },
           "locales": {
             "en": {
-              "title": "RockVerse",
-              "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-              "tags": ["Django", "Music", "Rock"]
+              "title": "Solutech universe",
+              "text": "A professional showcase site redesigned with <b>WordPress</b> to improve the visibility and presentation of the company's digital services. This dynamic site highlights digital solutions, completed projects, and key information through a modern, responsive interface optimized for fluid navigation.",
+              "tags": ["Service", "Solutech", "Frontend"]
             },
             "es": {
               "title": "RockVerse",
@@ -334,9 +334,9 @@
           },
           "locales": {
             "en": {
-              "title": "QuickDrop",
-              "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-              "tags": ["React Native", "Delivery", "Real-Time Tracking"]
+              "title": "Colyse",
+              "text": "A parcel delivery management application for customers of a local transport service. It facilitates the handling, tracking, and management of parcels from the shipment request to the final delivery.",
+              "tags": ["React.js", "Flutter", "Firebase"]
             },
             "es": {
               "title": "QuickDrop",

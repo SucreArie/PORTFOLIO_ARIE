@@ -47,12 +47,16 @@
                     "dateEnd": {"year": 2023, "month": 12 ,"day":31},
                     "locales": {
                         "en": {
-                            "title": "{{Bachelor}} in Computer Science",
-                            "province": "Massachusetts",
-                            "country": "US",
-                            "institution": "MIT",
-                            "text": "Earned a [[Bachelor's degree in Computer Science]], focusing on algorithms, data structures, software engineering, and web development. Gained hands-on experience through various programming projects, coding boot camps, and many collaborative team-based software development activities.",
-                            "list": [],
+                            "title": "{{Certification}} - Digital Amazons Program",
+                            "province": "Cotonou",
+                            "country": "Benin",
+                            "institution": "Ministry of Digital Affairs and Digitalization",
+                            "text": "I participated in the Digital Amazons program, an initiative of the Ministry of Digital Affairs aimed at strengthening women's empowerment in the technology sector. This training allowed me to develop essential skills in:",
+                            "list": [
+                                "Digital marketing strategy",
+                                "Innovative business modeling",
+                                "Public speaking techniques and the art of oratory"
+                            ],
                             "tags": []
                         },
                         "es": {
@@ -97,19 +101,21 @@
                     "dateEnd": {"year": 2025, "month": 6},
                     "locales": {
                         "en": {
-                            "title": "{{Master's}} in Artificial Intelligence",
-                            "province": "",
-                            "country": "France",
-                            "institution": "University of Paris",
-                            "text": "Completed a comprehensive Master's program focused on [[cutting-edge AI topics]], including:",
+                            "title": "{{Master's 1}} in Computer Engineering",
+                            "province": "Cotonou",
+                            "country": "Benin",
+                            "institution": "Haute Ecole de Commerce et Management (HECM)",
+                            "text": "I am currently pursuing a Master 1 in Computer Engineering, a comprehensive program that strengthens my technical and operational skills in several key areas of IT, including:",
                             "list": [
-                                "Machine Learning",
-                                "Natural Language Processing (NLP)",
-                                "Neural Networks"
+                                "Computer networks: configuration, administration, network security",
+                                "Installation and maintenance of computer systems",
+                                "Advanced programming and application development",
+                                "Information systems and database management"
                             ],
                             "tags": [
-                                "Neural Networks",
-                                "Machine Learning"
+                                "Computer Networks",
+                                "Information Systems",
+                                "Programming"
                             ]
                         },
                         "es": {
@@ -173,19 +179,17 @@
                     "dateEnd": {"year": 2024, "month": 6},
                     "locales": {
                         "en": {
-                            "title": "{{PhD}} in Computer Science",
-                            "province": "Massachusetts",
-                            "country": "US",
-                            "institution": "Harvard University",
-                            "text": "Currently pursuing a PhD with a focus on [[deep learning]] and its real-world applications, particularly in:",
+                            "title": "{{Bachelor's Degree}} in Computer Science",
+                            "province": "Cotonou",
+                            "country": "Benin",
+                            "institution": "Haute Ecole de Commerce et Management (HECM)",
+                            "text": "Currently holding a professional Bachelor's degree in computer systems and software, I oriented my training towards web development and modern software technologies. I am very committed to:",
                             "list": [
-                                "Computer Vision",
-                                "Innovative AI research",
-                                "Developing [[novel algorithms]] for image recognition"
+                                "Digital innovation",
+                                "Web solutions useful to society",
+                                "Innovative AI research"
                             ],
-                            "tags": [
-                                "Deep Learning", "Computer Vision", "AI Research", "Algorithms"
-                            ]
+                            "tags": ["Deep Learning", "Computer Vision", "AI Research"]
                         },
                         "es": {
                             "title": "{{Doctorado}} en Ciencias de la Computación",

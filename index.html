@@ -2,7 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="./images/svg/logo.svg" />
+        <!-- Assurez-vous que le chemin de l'icône est correct par rapport à la racine du projet -->
+        <link rel="icon" type="image/svg+xml" href="/images/svg/logo.svg" />
         <title>React Portfolio by Ryan Balieiro</title>
 
         <!-- Meta: Configurations -->
@@ -23,11 +24,15 @@
         <link href="https://fonts.googleapis.com/css?family=Saira:400,700" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-      <script type="module" crossorigin src="./assets/index-CSYH5-cs.js"></script>
-      <link rel="modulepreload" crossorigin href="./assets/swiper-BA6AJag-.js">
-      <link rel="stylesheet" crossorigin href="./assets/index-Be5Nf3GC.css">
+        <!-- Les lignes suivantes sont pour les builds de production et doivent être supprimées pour le développement -->
+        <!-- <script type="module" crossorigin src="./assets/index-CSYH5-cs.js"></script> -->
+        <!-- <link rel="modulepreload" crossorigin href="./assets/swiper-BA6AJag-.js"> -->
+        <!-- <link rel="stylesheet" crossorigin href="./assets/index-Be5Nf3GC.css"> -->
     </head>
     <body style="background-color: #111111">
         <div id="root"></div>
+        <!-- C'est le point d'entrée de votre application React. -->
+        <!-- Utilisation du chemin absolu pour Vite -->
+        <script type="module" src="/src/main.jsx"></script>
     </body>
 </html>

@@ -34,8 +34,8 @@
             "component": "ArticleTimeline",
             "locales": {},
             "settings": {
-                "order_items_by": "id",
-                "order_items_sort": "dateStart"
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
             },
             "items": [
                 {
@@ -48,10 +48,10 @@
                     "locales": {
                         "en": {
                             "title": "{{Backend}} Developer",
-                            "province": "Toronto",
-                            "country": "Canada",
-                            "institution": "Sapphire Studio",
-                            "text": "Developed and maintained [[scalable backend systems]] for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.",
+                            "province": "Cotonou",
+                            "country": "Benin",
+                            "institution": "Solutech Corporate",
+                            "text": "Development and maintenance of [[scalable backend systems]] for various clients, optimizing database performance and implementing RESTful APIs to enhance application functionality.",
                             "list": [],
                             "tags": ["PHP8.0", "MySQL", "Laravel"]
                         },
@@ -93,11 +93,11 @@
                     "dateEnd": {"year": 2020, "month": 12},
                     "locales": {
                         "en": {
-                            "title": "{{Full-Stack}} Engineer",
-                            "province": "",
-                            "country": "Remote",
-                            "institution": "Coursera",
-                            "text": "Worked on enhancing the Coursera website by implementing new features and improving user experience, utilizing both frontend and backend technologies to ensure seamless functionality.",
+                            "title": "{{Full-Stack}} Web Developer",
+                            "province": "Cotonou",
+                            "country": "Benin",
+                            "institution": "Uppersoft group",
+                            "text": "Development of a blood search application with map integration for [[fast and efficient tracking]] of blood products, while optimizing user experience and using frontend and backend technologies to ensure smooth operation.",
                             "list": [],
                             "tags": ["Svelte", "NodeJS", "Laravel", "REST APIs", "Docker"]
                         },
@@ -139,11 +139,11 @@
                     "dateEnd": {"year": 2022, "month": 11},
                     "locales": {
                         "en": {
-                            "title": "{{Backend}} Engineer",
-                            "province": "New York",
-                            "country": "US",
-                            "institution": "Adobe Inc",
-                            "text": "Contributed to the development of robust backend systems for Adobe Creative Cloud, integrating third-party services and improving data processing efficiency through cloud functions.",
+                            "title": "{{Frontend}} Developer",
+                            "province": "Cotonou",
+                            "country": "Benin",
+                            "institution": "Icode",
+                            "text": "Participated in the frontend development of an online training startup, ranging from form management and course filtering to [[responsive design optimization]] with the addition of animations and transition effects.",
                             "list": [],
                             "tags": ["JavaScript", "Flutter", "MongoDB", "CodeIgniter", "Kubernetes"]
                         },
@@ -182,20 +182,20 @@
                     "faIcon": "fa-brands fa-apple",
                     "faIconColors": {"bg": "#111", "fill": "#EEE"},
                     "dateStart": {"year": 2022, "month": 12},
-                    "dateEnd": {"now": true},
+                    "dateEnd": {"year": 2024, "month": 10},
                     "locales": {
                         "en": {
-                            "title": "{{Senior Backend}} Developer",
-                            "province": "California",
-                            "country": "US",
-                            "institution": "Apple Inc",
-                            "text": "Leading a team of developers to design and implement backend solutions for Apple's services, with a focus on:",
+                            "title": "{{Nocode}} Developer",
+                            "province": "Cotonou",
+                            "country": "Benin",
+                            "institution": "RAB TECH",
+                            "text": "Development of an e-commerce site for online t-shirt sales for KOLI-KOLI Benin using WordPress CMS:",
                             "list": [
-                                "Security",
-                                "Scalability to handle millions of users globally",
-                                "Developing RESTful APIs",
-                                "Optimizing database performance with PostgreSQL",
-                                "Building services with Swift, PHP, and GraphQL"
+                                "Creation of several games (car games, hangman games, etc.) with VB.Net",
+                                "Creation of professional CV templates with WordPress",
+                                "RESTful API development",
+                                "Database performance optimization with PostgreSQL",
+                                "Service creation with Swift, PHP, and GraphQL"
                             ],
                             "tags": ["JavaScript", "React", "NodeJS", "PHP", "REST APIs", "Docker"]
                         },
