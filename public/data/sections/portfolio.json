@@ -48,7 +48,7 @@
           "category_all": "Tout",
           "category_apps": "Apps",
           "category_web": "Web",
-          "category_utilities": "Utilitaires"
+          "category_utilities": "API Rest"
         },
         "ko": {
           "category_all": "모두",
@@ -69,7 +69,16 @@
           "img": "images/pictures/portfolio-project-logo-1.png",
           "faIcon": "",
           "faIconColors": { "bg": "", "fill": "" },
-          "preview": { "links": [] },
+          "preview": {
+            "links": [],
+            "screenshots": [
+              "images/pictures/screenshots/gestcaisse-1.png",
+              "images/pictures/screenshots/gestcaisse-2.png",
+              "images/pictures/screenshots/gestcaisse-3.png",
+              "images/pictures/screenshots/gestcaisse-4.png",
+              "images/pictures/screenshots/gestcaisse-5.png"
+            ]
+          },
           "locales": {
             "en": {
               "title": "GestCaisse",
@@ -96,7 +105,16 @@
           "img": "images/pictures/portfolio-project-logo-7.png",
           "faIcon": "",
           "faIconColors": { "bg": "", "fill": "" },
-          "preview": { "links": [] },
+          "preview": {
+            "links": [],
+            "screenshots": [
+              "images/pictures/screenshots/cvpro-1.png",
+              "images/pictures/screenshots/cvpro-2.png",
+              "images/pictures/screenshots/cvpro-3.png",
+              "images/pictures/screenshots/cvpro-4.png",
+              "images/pictures/screenshots/cvpro-5.png"
+            ]
+          },
           "locales": {
             "en": {
               "title": "CVPro",
@@ -166,7 +184,13 @@
                 "faIcon": "fa-solid fa-link"
               }
             ],
-            "screenshots": []
+            "screenshots": [
+              "images/pictures/screenshots/bloodsearch-1.png",
+              "images/pictures/screenshots/bloodsearch-2.png",
+              "images/pictures/screenshots/bloodsearch-3.png",
+              "images/pictures/screenshots/bloodsearch-4.png",
+              "images/pictures/screenshots/bloodsearch-5.png"
+            ]
           },
           "locales": {
             "en": {
@@ -205,7 +229,13 @@
                 "faIcon": "fa-solid fa-link"
               }
             ],
-            "screenshots": [],
+            "screenshots": [
+              "images/pictures/screenshots/colyse-1.png",
+              "images/pictures/screenshots/colyse-2.png",
+              "images/pictures/screenshots/colyse-3.png",
+              "images/pictures/screenshots/colyse-4.png",
+              "images/pictures/screenshots/colyse-5.png"
+            ],
             "screenshotsAspectRatio": "",
             "youtubeVideo": ""
           },
@@ -246,7 +276,13 @@
                 "faIcon": "fa-solid fa-link"
               }
             ],
-            "screenshots": [],
+            "screenshots": [
+              "images/pictures/screenshots/solutech-1.png",
+              "images/pictures/screenshots/solutech-2.png",
+              "images/pictures/screenshots/solutech-3.png",
+              "images/pictures/screenshots/solutech-4.png",
+              "images/pictures/screenshots/solutech-5.png"
+            ],
             "screenshotsAspectRatio": "",
             "youtubeVideo": ""
           },
@@ -287,7 +323,13 @@
                 "faIcon": "fa-solid fa-link"
               }
             ],
-            "screenshots": [],
+            "screenshots": [
+              "images/pictures/screenshots/kolikoli-1.png",
+              "images/pictures/screenshots/kolikoli-2.png",
+              "images/pictures/screenshots/kolikoli-3.png",
+              "images/pictures/screenshots/kolikoli-4.png",
+              "images/pictures/screenshots/kolikoli-5.png"
+            ],
             "screenshotsAspectRatio": "",
             "youtubeVideo": ""
           },
@@ -328,7 +370,13 @@
                 "faIcon": "fa-solid fa-link"
               }
             ],
-            "screenshots": [],
+            "screenshots": [
+              "images/pictures/screenshots/affilium-1.png",
+              "images/pictures/screenshots/affilium-2.png",
+              "images/pictures/screenshots/affilium-3.png",
+              "images/pictures/screenshots/affilium-4.png",
+              "images/pictures/screenshots/affilium-5.png"
+            ],
             "screenshotsAspectRatio": "",
             "youtubeVideo": ""
           },
@@ -353,6 +401,154 @@
               "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
               "tags": ["React Native", "배송", "실시간 추적"]
             }
+          }
+        },
+        {
+          "id": 10,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-hands-holding-child",
+          "faIconColors": { "bg": "#2ecc71", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://bewell.conceptic.io/",
+                "tooltipString": "open_website",
+                "faIcon": "fa-solid fa-link"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/screenshots/bewell-1.png",
+              "images/pictures/screenshots/bewell-2.png",
+              "images/pictures/screenshots/bewell-3.png",
+              "images/pictures/screenshots/bewell-4.png",
+              "images/pictures/screenshots/bewell-5.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "Bewell",
+              "text": "A monolithic website designed to manage members, contributions, and donations for the NGO MEE-Bewell. Developed using <b>React</b> and <b>Laravel Inertia</b>.",
+              "tags": ["React", "Laravel", "Inertia"]
+            },
+            "fr": {
+              "title": "Bewell",
+              "text": "Un site web monolithique permettant de gérer les membres, les cotisations et les dons de l’ONG MEE-Bewell. Conçu avec <b>React</b> et <b>Laravel Inertia</b>.",
+              "tags": ["React", "Laravel", "Inertia"]
+            },
+            "es": { "text": "", "tags": [] },
+            "ko": { "text": "", "tags": [] }
+          }
+        },
+        {
+          "id": 11,
+          "categoryId": "category_apps",
+          "img": "",
+          "faIcon": "fa-solid fa-plane-departure",
+          "faIconColors": { "bg": "#3498db", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://dev.flyrights.org/",
+                "tooltipString": "open_website",
+                "faIcon": "fa-solid fa-link"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/screenshots/flyrights-web-1.png",
+              "images/pictures/screenshots/flyrights-web-2.png",
+              "images/pictures/screenshots/flyrights-web-3.png",
+              "images/pictures/screenshots/flyrights-web-4.png",
+              "images/pictures/screenshots/flyrights-web-5.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "FLYRIGHTS",
+              "text": "A web application that helps air travelers claim compensation and manage their files. The frontend is built with <b>React</b> for a seamless user experience.",
+              "tags": ["React", "Frontend", "Travel"]
+            },
+            "fr": {
+              "title": "FLYRIGHTS",
+              "text": "Une application web qui aide les voyageurs aériens à obtenir leurs indemnisations et à gérer leurs dossiers. Développée avec un frontend en <b>React</b>.",
+              "tags": ["React", "Frontend", "Voyage"]
+            },
+            "es": { "text": "", "tags": [] },
+            "ko": { "text": "", "tags": [] }
+          }
+        },
+        {
+          "id": 12,
+          "categoryId": "category_utilities",
+          "img": "",
+          "faIcon": "fa-solid fa-gears",
+          "faIconColors": { "bg": "#e67e22", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://api.flyrights.org/",
+                "tooltipString": "open_website",
+                "faIcon": "fa-solid fa-link"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/screenshots/flyrights-api-1.png",
+              "images/pictures/screenshots/flyrights-api-2.png",
+              "images/pictures/screenshots/flyrights-api-3.png",
+              "images/pictures/screenshots/flyrights-api-4.png",
+              "images/pictures/screenshots/flyrights-api-5.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "FLYRIGHTS API",
+              "text": "A robust <b>RESTful API</b> built with <b>Laravel</b> and <b>Sanctum</b> to power the FLYRIGHTS platform, handling authentication and complex file management.",
+              "tags": ["Laravel", "Sanctum", "API"]
+            },
+            "fr": {
+              "title": "FLYRIGHTS API",
+              "text": "L'API REST de la plateforme FLYRIGHTS. Développée avec <b>Laravel</b> et <b>Sanctum</b>, elle assure la gestion sécurisée des dossiers et des utilisateurs.",
+              "tags": ["Laravel", "Sanctum", "API"]
+            },
+            "es": { "text": "", "tags": [] },
+            "ko": { "text": "", "tags": [] }
+          }
+        },
+        {
+          "id": 13,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-briefcase",
+          "faIconColors": { "bg": "#9b59b6", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://portfolio.conceptic.io/",
+                "tooltipString": "open_website",
+                "faIcon": "fa-solid fa-link"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/screenshots/portfolio-conceptic-1.png",
+              "images/pictures/screenshots/portfolio-conceptic-2.png",
+              "images/pictures/screenshots/portfolio-conceptic-3.png",
+              "images/pictures/screenshots/portfolio-conceptic-4.png",
+              "images/pictures/screenshots/portfolio-conceptic-5.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "Portfolio Conceptic",
+              "text": "A showcase site specifically designed to manage and display the project portfolio of Conceptic.io SARL. Built with <b>React</b>.",
+              "tags": ["React", "Showcase"]
+            },
+            "fr": {
+              "title": "Portfolio Conceptic",
+              "text": "Un menu site gérant le portfolio de Conceptic.io SARL. Réalisé avec <b>React</b> pour une navigation fluide et dynamique.",
+              "tags": ["React", "Vitrine"]
+            },
+            "es": { "text": "", "tags": [] },
+            "ko": { "text": "", "tags": [] }
           }
         }
       ]
