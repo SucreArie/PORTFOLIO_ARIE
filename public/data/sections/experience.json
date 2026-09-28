@@ -65,7 +65,7 @@
                             "tags": []
                         },
                         "fr": {
-                            "title": "Développeur {{Backend}}",
+                            "title": "Développeuse {{Backend}}",
                             "province": "Cotonou",
                             "country": "Bénin",
                             "institution": "Solutech Coporate",
@@ -186,11 +186,11 @@
                     "dateEnd": {"now": true},
                     "locales": {
                         "en": {
-                            "title": "{{Fullstack}} Developer",
+                            "title": "{{Web}}  and Visual Communication Manager",
                             "province": "Abomey-Calavi (IITA)",
                             "country": "Benin",
                             "institution": "Conceptic.io Sarl",
-                            "text": "Full-time fullstack developer at Conceptic.io Sarl. I specialize in building modern web platforms using [[React]] and [[Laravel]], focusing on high performance and user-centric design.",
+                            "text": "Full-time web and visual communication manager at Conceptic.io Sarl, located at IITA. I design high-performance web platforms using [[React]] and [[Laravel]].",
                             "list": [],
                             "tags": ["React", "Laravel", "MySQL", "PHP", "JavaScript"]
                         },
@@ -204,11 +204,11 @@
                             "tags": []
                         },
                         "fr": {
-                            "title": "Développeuse {{Fullstack}}",
+                            "title": "{{Responsable web}}  et communication visuelle ",
                             "province": "Abomey-Calavi (IITA)",
                             "country": "Bénin",
                             "institution": "Conceptic.io Sarl",
-                            "text": "Développeuse Fullstack à plein temps chez Conceptic.io Sarl, situé à l'IITA. Je conçois des plateformes web performantes en utilisant [[React]] et [[Laravel]].",
+                            "text": "Responsable web et communication visuelle  à plein temps chez Conceptic.io Sarl, situé à l'IITA. Je conçois des plateformes web performantes en utilisant [[React]] et [[Laravel]].",
                             "list": [],
                             "tags": ["React", "Laravel", "PHP", "MySQL"]
                         },
