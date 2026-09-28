@@ -6,7 +6,7 @@ import {useLocation} from "/src/providers/LocationProvider.jsx"
 import {useUtils} from "/src/hooks/utils.js"
 import {useScheduler} from "/src/hooks/scheduler.js"
 
-function Link({ id = null, className = "", href, children, tooltip = null, metadata = null, onClick = null, onClickTimeout = 0, onHoverStatus = null, intercept = false }) {
+function Link({ id = null, className = "", href, children, tooltip = null, metadata = null, onClick = null, onClickTimeout = 0, onHoverStatus = null, intercept = false, download = null }) {
     const feedbacks = useFeedbacks()
     const language = useLanguage()
     const location = useLocation()
@@ -27,6 +27,8 @@ function Link({ id = null, className = "", href, children, tooltip = null, metad
 
     const _onClick = (e) => {
         onClick && onClick()
+        if(download)
+            return
         if(href.includes('mailto') || href.includes('tel:'))
             return
 
@@ -98,6 +100,7 @@ function Link({ id = null, className = "", href, children, tooltip = null, metad
         <a href={href}
            id={id}
            className={`${className} ${hrefClass}`}
+           download={download || undefined}
            onClick={_onClick}
            onMouseEnter={_onMouseEnter}
            onMouseLeave={_onMouseLeave}

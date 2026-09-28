@@ -126,13 +126,14 @@
                 },
                 {
                     "id": 5,
-                    "faIcon": "fa-brands fa-instagram",
+                    "faIcon": "fa-brands fa-github",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@tany",
-                    "link": {"href": "https://instagram.com/", "tooltipString": "open_website"},
+                    "label": "SucreArie (Kantani_Arielle)",
+                    "link": {"href": "https://github.com/SucreArie", "tooltipString": "open_website"},
                     "locales": {
-                        "en": {"title": "Instagram"},
-                        "ko": {"title": "인스타그램"}
+                        "en": {"title": "GitHub"},
+                        "fr": {"title": "GitHub"},
+                        "ko": {"title": "GitHub"}
                     }
                 },
                 {

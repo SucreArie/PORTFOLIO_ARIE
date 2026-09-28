@@ -70,7 +70,8 @@ function ArticleInlineListItem({ itemWrapper }) {
         <li className={`article-inline-list-item text-4`}>
             <Link href={itemWrapper.link?.href || null}
                   tooltip={itemWrapper.link?.tooltip}
-                  metadata={itemWrapper.link?.metadata}>
+                metadata={itemWrapper.link?.metadata}
+                download={itemWrapper.link?.download}>
                 <i className={`article-inline-list-item-icon ${itemWrapper.faIconWithFallback}`}
                    style={itemWrapper.faIconStyle}/>
 

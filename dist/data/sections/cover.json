@@ -56,6 +56,21 @@
                     "label": "@ariellenouanti",
                     "link": {"href": "https://gitlab.com/ariellenouanti", "tooltipString": "see_on_github"},
                     "faIcon": "fa-brands fa-github"
+                },
+                {
+                    "id": 4,
+                    "link": {
+                        "href": "images/pictures/CV_NOUANTI%20Arielle.pdf",
+                        "download": "CV_NOUANTI Arielle.pdf",
+                        "tooltipString": "download_resume"
+                    },
+                    "faIcon": "fa-solid fa-file-arrow-down",
+                    "locales": {
+                        "en": {"label": "Download my CV"},
+                        "es": {"label": "Descargar mi CV"},
+                        "fr": {"label": "Télécharger mon CV"},
+                        "ko": {"label": "이력서 다운로드"}
+                    }
                 }
             ]
         },

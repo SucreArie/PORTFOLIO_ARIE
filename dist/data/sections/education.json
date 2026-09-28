@@ -40,7 +40,7 @@
             "items": [
                 {
                     "id": 2,
-                    "img": "images/pictures/timeline-place-mit.png",
+                    "img": "images/pictures/ministere-du-numerique.jpg",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "dateStart": {"year": 2023, "month": 12,"day":1},
@@ -94,28 +94,24 @@
                 },
                 {
                     "id": 3,
-                    "img": "images/pictures/timeline-place-university-paris.png",
+                    "img": "images/pictures/HECM-benin.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "dateStart": {"year": 2024, "month": 11},
                     "dateEnd": {"year": 2025, "month": 6},
                     "locales": {
                         "en": {
-                            "title": "{{Master's 1}} in Computer Engineering",
+                            "title": "{{Professional Master's Degree}} in Computer Engineering",
                             "province": "Cotonou",
                             "country": "Benin",
                             "institution": "Haute Ecole de Commerce et Management (HECM)",
-                            "text": "I am currently pursuing a Master 1 in Computer Engineering, a comprehensive program that strengthens my technical and operational skills in several key areas of IT, including:",
-                            "list": [
-                                "Computer networks: configuration, administration, network security",
-                                "Installation and maintenance of computer systems",
-                                "Advanced programming and application development",
-                                "Information systems and database management"
-                            ],
+                            "text": "<p><b>As a graduate of a Professional Master's Degree in Computer Engineering</b>, I have deepened my skills in the design, development, and architecture of computer systems. This program strengthened my expertise in web technologies, databases, information systems, and IT infrastructure, while fostering an approach focused on designing solutions and solving complex problems.</p><p>My studies covered:</p><ul><li><b>Advanced software development:</b> designing and developing web applications and IT solutions.</li><li><b>Information systems architecture:</b> analyzing, designing, and structuring systems to meet business needs.</li><li><b>Databases:</b> designing, modeling, managing, and implementing data solutions, particularly with MySQL.</li><li><b>Computer networks and systems:</b> infrastructure administration, configuration, maintenance, and security fundamentals.</li><li><b>Software engineering:</b> design methodologies, software quality, application lifecycle management, and complex problem-solving.</li></ul><p><b>Master's thesis:</b> <i>Design of a distributed database for managing electronic medical records and patient follow-up</i>, implemented using technologies including <b>Laravel, React, and MySQL replication</b>.</p><p><b>Degree awarded: Professional Master's Degree in Computer Engineering</b></p>",
+                            "list": [],
                             "tags": [
-                                "Computer Networks",
-                                "Information Systems",
-                                "Programming"
+                                "Software Development",
+                                "Systems Architecture",
+                                "MySQL",
+                                "Software Engineering"
                             ]
                         },
                         "es": {
@@ -135,21 +131,17 @@
                             ]
                         },
                         "fr": {
-                            "title": "{{Master1}} en Génie Informatique",
+                            "title": "{{Master Professionnel}} en Génie Informatique",
                             "province": "Cotonou",
                             "country": "Bénin",
                             "institution": "Haute Ecole de Commerce et Management (HECM)",
-                            "text": "Je poursuis actuellement un Master 1 en Génie Informatique, un programme complet qui renforce mes compétences techniques et opérationnelles dans plusieurs domaines clés de l’informatique, notamment :",
-                            "list": [
-                                "Réseaux informatiques : configuration, administration, sécurité réseau",
-                                "Installation et maintenance de systèmes informatiques",
-                                "Programmation avancée et développement d'applications",
-                                "Systèmes d'information et gestion de bases de données"
-                            ],
+                            "text": "<p><b>Diplômée d’un Master Professionnel en Génie Informatique</b>, j’ai approfondi mes compétences en conception, développement et architecture des systèmes informatiques. Cette formation m’a permis de consolider ma maîtrise des technologies web, des bases de données, des systèmes d’information et des infrastructures informatiques, tout en développant une approche orientée conception de solutions et résolution de problématiques complexes.</p><p>Mon parcours couvre notamment :</p><ul><li><b>Développement logiciel avancé :</b> conception et développement d’applications web et de solutions informatiques.</li><li><b>Architecture et systèmes d’information :</b> analyse, conception et structuration de systèmes adaptés aux besoins métier.</li><li><b>Bases de données :</b> conception, modélisation, gestion et mise en œuvre de solutions de données, notamment avec MySQL.</li><li><b>Réseaux et systèmes informatiques :</b> administration, configuration, maintenance et notions de sécurité des infrastructures.</li><li><b>Ingénierie logicielle :</b> méthodologies de conception, qualité logicielle, gestion du cycle de vie des applications et résolution de problèmes complexes.</li></ul><p><b>Mémoire de Master :</b> <i>Conception d’une base de données distribuée pour la gestion des dossiers médicaux électroniques et le suivi des patients</i>, avec une mise en œuvre basée notamment sur <b>Laravel, React et la réplication MySQL</b>.</p><p><b>Diplôme obtenu — Master Professionnel en Génie Informatique</b></p>",
+                            "list": [],
                             "tags": [
-                                "Reseaux informatiques",
-                                "Systèmes d'information",
-                                "Programmation "
+                                "Développement logiciel",
+                                "Architecture des systèmes",
+                                "MySQL",
+                                "Ingénierie logicielle"
                             ]
                         },
                         "ko": {
@@ -172,24 +164,20 @@
                 },
                 {
                     "id": 4,
-                    "img": "images/pictures/timeline-place-harvard.png",
+                    "img": "images/pictures/HECM-benin.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "dateStart": {"year": 2021, "month": 10},
                     "dateEnd": {"year": 2024, "month": 6},
                     "locales": {
                         "en": {
-                            "title": "{{Bachelor's Degree}} in Computer Science",
+                            "title": "{{Professional Bachelor's Degree}} in Computer Systems and Software",
                             "province": "Cotonou",
                             "country": "Benin",
                             "institution": "Haute Ecole de Commerce et Management (HECM)",
-                            "text": "Currently holding a professional Bachelor's degree in computer systems and software, I oriented my training towards web development and modern software technologies. I am very committed to:",
-                            "list": [
-                                "Digital innovation",
-                                "Web solutions useful to society",
-                                "Innovative AI research"
-                            ],
-                            "tags": ["Deep Learning", "Computer Vision", "AI Research"]
+                            "text": "As a graduate of a <b>Professional Bachelor's Degree in Computer Systems and Software</b>, I built a strong foundation in programming, application development, computer systems, and web technologies. This program strengthened my interest in <b>software development, digital innovation, web solutions that benefit society, and exploring artificial intelligence</b>.",
+                            "list": [],
+                            "tags": ["Software Development", "Digital Innovation", "Web Technologies", "Artificial Intelligence"]
                         },
                         "es": {
                             "title": "{{Doctorado}} en Ciencias de la Computación",
@@ -205,18 +193,13 @@
                             "tags": ["Aprendizaje profundo", "Visión por computadora", "Investigación en IA", "Algoritmos"]
                         },
                         "fr": {
-                            "title": "{{Licence}} en informatique",
+                            "title": "{{Licence Professionnelle}} en Systèmes Informatiques et Logiciels",
                             "province": "Cotonou",
                             "country": "Bénin",
                             "institution": "Haute Ecole de Commerce et Management",
-                            "text": "Actuellement titulaire d’une licence professionnelle en systèmes informatiques et logiciels, j’ai orienté ma formation vers le développement web et les technologies logicielles modernes, je suis très attachée à :",
-                            "list": [
-                                "l'innovation numérique",
-                                "solutions web utiles à la société",
-                                "La recherche innovante en IA"
-                               
-                            ],
-                            "tags": ["Apprentissage profond", "Vision par ordinateur", "Recherche en IA"]
+                            "text": "Titulaire d’une <b>Licence Professionnelle en Systèmes Informatiques et Logiciels</b>, j’y ai construit mes fondamentaux en programmation, développement d’applications, systèmes informatiques et technologies web. Cette formation a renforcé mon intérêt pour le <b>développement logiciel, l’innovation numérique, les solutions web utiles à la société et l’exploration de l’intelligence artificielle</b>.",
+                            "list": [],
+                            "tags": ["Développement logiciel", "Innovation numérique", "Technologies web", "Intelligence artificielle"]
                         },
                         "ko": {
                             "title": "컴퓨터 과학 {{박사}}",

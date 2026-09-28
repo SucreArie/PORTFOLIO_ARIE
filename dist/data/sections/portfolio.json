@@ -584,11 +584,11 @@
           "preview": {
             "links": [{ "href": "https://new.conceptic.io/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link" }],
             "screenshots": [
-              "images/pictures/screenshots/concepticio-1.png",
-              "images/pictures/screenshots/concepticio-2.png",
-              "images/pictures/screenshots/concepticio-3.png",
-              "images/pictures/screenshots/concepticio-4.png",
-              "images/pictures/screenshots/concepticio-5.png"
+              "images/pictures/concepticio-1.png",
+              "images/pictures/concepticio-2.png",
+              "images/pictures/concepticio-3.png",
+              "images/pictures/concepticio-4.png",
+              "images/pictures/concepticio-5.png"
             ]
           },
           "locales": {
@@ -676,7 +676,13 @@
           "faIconColors": { "bg": "#7f8c8d", "fill": "#FFFFFF" },
           "preview": {
             "links": [{ "href": "https://medinode.vercel.app/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link" }],
-            "screenshots": []
+            "screenshots": [
+              "images/pictures/medinode-1.png",
+              "images/pictures/medinode-2.png",
+              "images/pictures/medinode-3.png",
+              "images/pictures/medinode-4.png",
+              "images/pictures/medinode-5.png"
+            ]
           },
           "locales": {
             "en": {
