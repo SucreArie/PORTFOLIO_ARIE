@@ -97,7 +97,7 @@ function GalleryModalSwiper({ className, images, type }) {
     const utils = useUtils()
 
     return (
-        <Swiper slidesPerView={"auto"}
+        <Swiper slidesPerView={1}
                 direction={"horizontal"}
                 spaceBetween={15}
                 pagination={{ clickable: true }}

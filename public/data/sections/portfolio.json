@@ -60,7 +60,7 @@
       "settings": {
         "categorize_by": ["category_apps", "category_web", "category_utilities"],
         "order_items_by": "id",
-        "order_items_sort": "asc"
+        "order_items_sort": "desc"
       },
       "items": [
         {
@@ -352,44 +352,7 @@
             "ko": {
               "title": "RockVerse",
               "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
-              "tags": ["Django", "음악", "록"]
-            }
-          }
-        },
-        {
-          "id": 9,
-          "categoryId": "category_apps",
-          "img": "",
-          "faIcon": "fa-solid fa-truck-fast",
-          "faIconColors": { "bg": "#007396", "fill": "#EEEEEE" },
-          "preview": {
-            "links": [
-                {
-                "href": "",
-                "tooltipString": "open_website",
-                "faIcon": "fa-solid fa-link"
-              }
-            ],
-            "screenshots": [
-              "images/pictures/screenshots/affilium-1.png",
-              "images/pictures/screenshots/affilium-2.png",
-              "images/pictures/screenshots/affilium-3.png",
-              "images/pictures/screenshots/affilium-4.png",
-              "images/pictures/screenshots/affilium-5.png"
-            ],
-            "screenshotsAspectRatio": "",
-            "youtubeVideo": ""
-          },
-          "locales": {
-            "en": {
-              "title": "Colyse",
-              "text": "A parcel delivery management application for customers of a local transport service. It facilitates the handling, tracking, and management of parcels from the shipment request to the final delivery.",
-              "tags": ["React.js", "Flutter", "Firebase"]
-            },
-            "es": {
-              "title": "QuickDrop",
-              "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
-              "tags": ["React Native", "Entrega", "Seguimiento"]
+              "tags": ["Django", "Música", "Rock"]
             },
             "fr": {
               "title": "Colyse",
@@ -418,11 +381,11 @@
               }
             ],
             "screenshots": [
-              "images/pictures/screenshots/bewell-1.png",
-              "images/pictures/screenshots/bewell-2.png",
-              "images/pictures/screenshots/bewell-3.png",
-              "images/pictures/screenshots/bewell-4.png",
-              "images/pictures/screenshots/bewell-5.png"
+              "images/pictures/bewell-1.png",
+              "images/pictures/bewell-2.png",
+              "images/pictures/bewell-3.png",
+              "images/pictures/bewell-4.png",
+              "images/pictures/bewell-5.png"
             ]
           },
           "locales": {
@@ -455,11 +418,11 @@
               }
             ],
             "screenshots": [
-              "images/pictures/screenshots/flyrights-web-1.png",
-              "images/pictures/screenshots/flyrights-web-2.png",
-              "images/pictures/screenshots/flyrights-web-3.png",
-              "images/pictures/screenshots/flyrights-web-4.png",
-              "images/pictures/screenshots/flyrights-web-5.png"
+              "images/pictures/flyrights-web-1.png",
+              "images/pictures/flyrights-web-2.png",
+              "images/pictures/flyrights-web-3.png",
+              "images/pictures/flyrights-web-4.png",
+              "images/pictures/flyrights-web-5.png"
             ]
           },
           "locales": {
@@ -529,11 +492,11 @@
               }
             ],
             "screenshots": [
-              "images/pictures/screenshots/portfolio-conceptic-1.png",
-              "images/pictures/screenshots/portfolio-conceptic-2.png",
-              "images/pictures/screenshots/portfolio-conceptic-3.png",
-              "images/pictures/screenshots/portfolio-conceptic-4.png",
-              "images/pictures/screenshots/portfolio-conceptic-5.png"
+              "images/pictures/portfolio-conceptic-1.png",
+              "images/pictures/portfolio-conceptic-2.png",
+              "images/pictures/portfolio-conceptic-3.png",
+              "images/pictures/portfolio-conceptic-4.png",
+              "images/pictures/portfolio-conceptic-5.png"
             ]
           },
           "locales": {
@@ -546,6 +509,191 @@
               "title": "Portfolio Conceptic",
               "text": "Un menu site gérant le portfolio de Conceptic.io SARL. Réalisé avec <b>React</b> pour une navigation fluide et dynamique.",
               "tags": ["React", "Vitrine"]
+            },
+            "es": { "text": "", "tags": [] },
+            "ko": { "text": "", "tags": [] }
+          }
+        },
+        {
+          "id": 14,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-handshake-angle",
+          "faIconColors": { "bg": "#16a085", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [{ "href": "https://www.jura-afrique-benin.org/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link" }],
+            "screenshots": [
+              "images/pictures/jura-afrique-1.png",
+              "images/pictures/jura-afrique-2.png",
+              "images/pictures/jura-afrique-3.png",
+              "images/pictures/jura-afrique-4.png",
+              "images/pictures/jura-afrique-5.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "Jura-Afrique-Bénin",
+              "text": "A management platform for the Jura-Afrique-Bénin NGO, featuring a public website and a back office for managing the blog, partners, projects, donations, and more.",
+              "tags": ["Web", "NGO", "Management"]
+            },
+            "fr": {
+              "title": "Jura-Afrique-Bénin",
+              "text": "Développement d’une plateforme de gestion pour l’ONG Jura-Afrique-Bénin, comprenant un site public et un back-office pour gérer le blog, les partenaires, les projets, les dons et d’autres contenus.",
+              "tags": ["Web", "ONG", "Gestion"]
+            },
+            "es": { "text": "", "tags": [] },
+            "ko": { "text": "", "tags": [] }
+          }
+        },
+        {
+          "id": 15,
+          "categoryId": "category_apps",
+          "img": "",
+          "faIcon": "fa-solid fa-list-check",
+          "faIconColors": { "bg": "#2980b9", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [{ "href": "https://taskio.conceptic.io/f/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link" }],
+            "screenshots": [
+              "images/pictures/taskio-1.png",
+              "images/pictures/taskio-2.png",
+              "images/pictures/taskio-3.png",
+              "images/pictures/taskio-4.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "TASKIO",
+              "text": "Development of the complaint management module and contribution to regression testing. The technical environment includes <b>Docker</b> and <b>PostgreSQL</b>.",
+              "tags": ["Docker", "PostgreSQL", "Testing"]
+            },
+            "fr": {
+              "title": "TASKIO",
+              "text": "Développement du module de gestion des plaintes et participation aux tests de régression. L’environnement technique comprend <b>Docker</b> et <b>PostgreSQL</b>.",
+              "tags": ["Docker", "PostgreSQL", "Tests"]
+            },
+            "es": { "text": "", "tags": [] },
+            "ko": { "text": "", "tags": [] }
+          }
+        },
+        {
+          "id": 16,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-building",
+          "faIconColors": { "bg": "#34495e", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [{ "href": "https://new.conceptic.io/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link" }],
+            "screenshots": [
+              "images/pictures/concepticio-1.png",
+              "images/pictures/concepticio-2.png",
+              "images/pictures/concepticio-3.png",
+              "images/pictures/concepticio-4.png",
+              "images/pictures/concepticio-5.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "Concepticio",
+              "text": "Development of the company's institutional website using <b>Laravel</b>, <b>Inertia.js</b>, and <b>React</b>, including content administration in French and English and user experience improvements. Also contributed to production deployment and testing.",
+              "tags": ["Laravel", "Inertia.js", "React"]
+            },
+            "fr": {
+              "title": "Concepticio",
+              "text": "Développement du site institutionnel de la société avec <b>Laravel</b>, <b>Inertia.js</b> et <b>React</b>, comprenant l’administration et la gestion de contenus en français et en anglais, ainsi que l’amélioration de l’expérience utilisateur. Participation au déploiement et aux tests en production.",
+              "tags": ["Laravel", "Inertia.js", "React"]
+            },
+            "es": { "text": "", "tags": [] },
+            "ko": { "text": "", "tags": [] }
+          }
+        },
+        {
+          "id": 17,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-house-medical",
+          "faIconColors": { "bg": "#27ae60", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [{ "href": "https://adgong.org/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link" }],
+            "screenshots": [
+              "images/pictures/adg-1.png",
+              "images/pictures/adg-2.png",
+              "images/pictures/adg-3.png",
+              "images/pictures/adg-4.png",
+              "images/pictures/adg-5.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "ADG System",
+              "text": "Development of a home healthcare management platform for the ADG NGO, covering appointment scheduling, healthcare provider assignment, care, provider and client contracts, and payments. Built with a <b>Node.js</b> backend and <b>React</b> frontend.",
+              "tags": ["Node.js", "React", "Healthcare"]
+            },
+            "fr": {
+              "title": "Système ADG",
+              "text": "Développement d’une plateforme de gestion des soins à domicile pour l’ONG ADG : prise de rendez-vous, affectation des prestataires médicaux, suivi des soins, gestion des contrats prestataires et clients, et paiements. Stack : backend <b>Node.js</b> et frontend <b>React</b>.",
+              "tags": ["Node.js", "React", "Santé"]
+            },
+            "es": { "text": "", "tags": [] },
+            "ko": { "text": "", "tags": [] }
+          }
+        },
+        {
+          "id": 18,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-hand-holding-heart",
+          "faIconColors": { "bg": "#e67e22", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [{ "href": "https://ape-ong.org/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link" }],
+            "screenshots": [
+              "images/pictures/ape-1.png",
+              "images/pictures/ape-2.png",
+              "images/pictures/ape-3.png",
+              "images/pictures/ape-4.png",
+              "images/pictures/ape-5.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "APE System",
+              "text": "Development of a showcase website for the APE NGO, presenting the organization and providing a back office to manage donations, the blog, and projects. Built as a monolithic application with <b>Laravel</b>, <b>Inertia</b>, and <b>React</b>.",
+              "tags": ["Laravel", "Inertia", "React"]
+            },
+            "fr": {
+              "title": "Système APE",
+              "text": "Développement d’un site vitrine pour l’ONG APE, présentant l’organisation et intégrant un back-office de gestion des dons, du blog et des projets. Application monolithique réalisée avec <b>Laravel</b>, <b>Inertia</b> et <b>React</b>.",
+              "tags": ["Laravel", "Inertia", "React"]
+            },
+            "es": { "text": "", "tags": [] },
+            "ko": { "text": "", "tags": [] }
+          }
+        },
+        {
+          "id": 19,
+          "categoryId": "category_utilities",
+          "img": "",
+          "faIcon": "fa-solid fa-database",
+          "faIconColors": { "bg": "#7f8c8d", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [{ "href": "https://medinode.vercel.app/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link" }],
+            "screenshots": [
+              "images/pictures/medinode-1.png",
+              "images/pictures/medinode-2.png",
+              "images/pictures/medinode-3.png",
+              "images/pictures/medinode-4.png",
+              "images/pictures/medinode-5.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "MediNode - Master's Project",
+              "text": "Design and development of a distributed architecture for electronic medical records. The project combines <b>Laravel</b> and <b>React</b> with <b>MySQL 8</b> replication between multiple healthcare centers and a central database, using <b>Docker</b>.",
+              "tags": ["Laravel", "React", "MySQL", "Docker"]
+            },
+            "fr": {
+              "title": "MediNode - Projet de master",
+              "text": "Conception et développement d’une architecture distribuée pour les dossiers médicaux électroniques. Le projet associe <b>Laravel</b> et <b>React</b> à la réplication de <b>MySQL 8</b> entre plusieurs centres de santé et une base centrale, avec <b>Docker</b>.",
+              "tags": ["Laravel", "React", "MySQL", "Docker"]
             },
             "es": { "text": "", "tags": [] },
             "ko": { "text": "", "tags": [] }

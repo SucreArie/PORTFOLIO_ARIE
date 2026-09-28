@@ -1,0 +1,699 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Portfolio",
+        "title_short_nav": "Portfolio",
+        "title_long_prefix": "Discover",
+        "title_long": "My {{Portfolio}}"
+      },
+      "es": {
+        "title_short": "Portafolio",
+        "title_short_nav": "Portafolio",
+        "title_long_prefix": "Explora",
+        "title_long": "Mi {{Portafolio}}"
+      },
+      "fr": {
+        "title_short": "Portfolio",
+        "title_short_nav": "Portfolio",
+        "title_long_prefix": "Découvrez",
+        "title_long": "Mon {{Portfolio}}"
+      },
+      "ko": {
+        "title_short": "포트폴리오",
+        "title_short_nav": "포트폴리오",
+        "title_long_prefix": "이것은 내",
+        "title_long": "{{포트폴리오}}입니다"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticlePortfolio",
+      "locales": {
+        "en": {
+          "category_all": "All",
+          "category_apps": "Apps",
+          "category_web": "Web",
+          "category_utilities": "Utilities"
+        },
+        "es": {
+          "category_all": "Todo",
+          "category_apps": "Apps",
+          "category_web": "Web",
+          "category_utilities": "Utilidades"
+        },
+        "fr": {
+          "category_all": "Tout",
+          "category_apps": "Apps",
+          "category_web": "Web",
+          "category_utilities": "API Rest"
+        },
+        "ko": {
+          "category_all": "모두",
+          "category_apps": "앱",
+          "category_web": "웹",
+          "category_utilities": "유틸리티"
+        }
+      },
+      "settings": {
+        "categorize_by": ["category_apps", "category_web", "category_utilities"],
+        "order_items_by": "id",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "categoryId": "category_utilities",
+          "img": "images/pictures/portfolio-project-logo-1.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [],
+            "screenshots": [
+              "images/pictures/screenshots/gestcaisse-1.png",
+              "images/pictures/screenshots/gestcaisse-2.png",
+              "images/pictures/screenshots/gestcaisse-3.png",
+              "images/pictures/screenshots/gestcaisse-4.png",
+              "images/pictures/screenshots/gestcaisse-5.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "GestCaisse",
+              "text": "A <b>RESTful API</b> backend built with <b>Laravel</b>, designed for cash management for an internal application. This project ensured secure payment processing, fund management, and real-time transaction tracking.",
+              "tags": ["API", "REST", "Backend"]
+            },
+            "es": {
+              "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
+              "tags": ["API", "REST", "Backend"]
+            },
+            "fr": {
+              "text": "Un backend <b>API RESTful</b> construit avec <b>Laravel</b>, conçu pour la gestion de caisse pour une application interne. Ce projet a permis d’assurer le traitement sécurisé des paiements, la gestion des entrées/sorties de fonds, et le suivi des transactions en temps réel.",
+              "tags": ["API", "REST", "Backend"]
+            },
+            "ko": {
+              "text": "<b>Node.js</b>로 구축된 <b>RESTful API</b> 백엔드로, 고성능 데이터 처리 및 실시간 이벤트 처리용으로 설계되었습니다.",
+              "tags": ["API", "REST", "Backend"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "categoryId": "category_apps",
+          "img": "images/pictures/portfolio-project-logo-7.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [],
+            "screenshots": [
+              "images/pictures/screenshots/cvpro-1.png",
+              "images/pictures/screenshots/cvpro-2.png",
+              "images/pictures/screenshots/cvpro-3.png",
+              "images/pictures/screenshots/cvpro-4.png",
+              "images/pictures/screenshots/cvpro-5.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "CVPro",
+              "text": "Creation of several CV models with <b>WordPress</b>, allowing clients to benefit from a professional CV template that is easily editable <b>with the possibility of online deployment</b>.",
+              "tags": ["WordPress", "CV", "Professional"]
+            },
+            "es": {
+              "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
+              "tags": ["Flutter", "Correo", "Comunicación"]
+            },
+            "fr": {
+              "text": "Creation de plusieurs models de CV avec <b>WordPress</b>, pour permettre aux clients de bénéficier d'un model de CV professionnel facilement modifiable  <b>avec une possibilité de deploiement en ligne</b>.",
+              "tags": ["WordPress", "CV", "Profesionnel"]
+            },
+            "ko": {
+              "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
+              "tags": ["Flutter", "이메일", "소통"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "categoryId": "category_apps",
+          "img": "images/pictures/portfolio-project-logo-6.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://gitlab.com/team-bs/projet-bs",
+                "tooltipString": "see_on_github",
+                "faIcon": "fa-brands fa-github"
+              }
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "BloodSearch",
+              "text": "BloodSearch is a web platform developed to facilitate online blood searches in Benin. The application allows users to quickly locate compatible donors or transfusion centers based on their blood group and geographic location.",
+              "tags": ["Bootstrap", "SQL", "Laravel"]
+            },
+            "es": {
+              "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
+              "tags": ["React", "Organización", "Notas"]
+            },
+            "fr": {
+              "text": "BloodSearch est une plateforme web  développée pour faciliter la recherche de sang en ligne au Bénin. L’application permet aux utilisateurs de localiser rapidement des donneurs compatibles ou des centres de transfusion, selon leur groupe sanguin et leur position géographique",
+              "tags": ["Bootstrap", "SQL", "Laravel"]
+            },
+            "ko": {
+              "text": "<b>React Native</b>로 개발된 기능이 풍부한 생산성 앱으로, 사용자가 여러 기기에서 작업, 메모, 프로젝트를 <b>클라우드 동기화</b>와 직관적인 UI로 관리할 수 있습니다.",
+              "tags": ["React", "조직", "메모"]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "categoryId": "category_web",
+          "img": "images/pictures/portfolio-project-logo-1.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://grbpai.com",
+                "tooltipString": "open_website",
+                "faIcon": "fa-solid fa-link"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/screenshots/bloodsearch-1.png",
+              "images/pictures/screenshots/bloodsearch-2.png",
+              "images/pictures/screenshots/bloodsearch-3.png",
+              "images/pictures/screenshots/bloodsearch-4.png",
+              "images/pictures/screenshots/bloodsearch-5.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "GRB Paie",
+              "text": "A payroll management web application developed with <b>Laravel</b>, designed to automate the processing of salaries and taxes. It manages contracts, bonuses, overtime, absences, tax and social deductions, with automatic generation of payslips and summary tables.",
+              "tags": ["Payment", "Payroll", "Money"]
+            },
+            "es": {
+              "title": "SmartCash",
+              "text": "Un sitio web financiero construido con <b>Next.js</b>, que permite a los usuarios <b>seguir presupuestos</b> y gestionar su dinero con gráficos interactivos e ideas.",
+              "tags": ["Next.js", "Finanzas", "Dinero"]
+            },
+            "fr": {
+              "title": "GRB Paie",
+              "text": "Une application web de gestion de paiements développée avec <b>Laravel</b>, conçue pour automatiser le traitement des salaires et des charges. Elle permet de gérer les contrats, les primes, les heures supplémentaires, les absences, les retenues fiscales et sociales, avec génération automatique des fiches de paie et tableaux de synthèse.",
+              "tags": ["Paiement", "salaire", "Argent"]
+            },
+            "ko": {
+              "title": "SmartCash",
+              "text": "<b>Next.js</b>로 구축된 금융 웹사이트로, 사용자가 <b>예산을 추적</b>하고 상호작용하는 차트와 통찰력으로 자금을 관리할 수 있습니다.",
+              "tags": ["Next.js", "금융", "돈"]
+            }
+          }
+        },
+        {
+          "id": 5,
+          "categoryId": "category_apps",
+          "img": "images/pictures/affilium-academy.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://affilium.co",
+                "tooltipString": "open_website",
+                "faIcon": "fa-solid fa-link"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/screenshots/colyse-1.png",
+              "images/pictures/screenshots/colyse-2.png",
+              "images/pictures/screenshots/colyse-3.png",
+              "images/pictures/screenshots/colyse-4.png",
+              "images/pictures/screenshots/colyse-5.png"
+            ],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Affilium Academy",
+              "text": "An online training application developed with <b>Laravel</b> and <b>JavaScript</b>, offering a simple and intuitive interface for distance learning. It integrates a secure registration system, course search filters, and a responsive design for smooth use on computer, tablet, or mobile.",
+              "tags": ["Laravel", "JavaScript", "Training"]
+            },
+            "es": {
+              "title": "Snappy",
+              "text": "Una app de fotografía potente diseñada con <b>Swift</b> para iOS y Android, con <b>controles avanzados de cámara</b>, herramientas de edición y filtros potenciados por IA para mejoras rápidas de fotos.",
+              "tags": ["Swift", "Fotografía", "Cámara"]
+            },
+            "fr": {
+              "title": "Affilium Academy",
+              "text": "Une application de formation en ligne développée avec <b>Laravel</b> et <b>JavaScript</b>, offrant une interface simple et intuitive pour suivre des cours à distance. Elle intègre un système d'inscription sécurisé, des filtres de recherche de cours et un design responsive pour une utilisation fluide sur ordinateur, tablette ou mobile.",
+              "tags": ["Laravel", "JavaScript", "Formation"]
+            },
+            "ko": {
+              "title": "Snappy",
+              "text": "<b>Swift</b>로 설계된 강력한 사진 앱으로, iOS 및 Android에서 <b>고급 카메라 제어</b>, 편집 도구, AI 기반 필터를 통해 빠르게 사진을 보정할 수 있습니다.",
+              "tags": ["Swift", "사진", "카메라"]
+            }
+          }
+        },
+        {
+          "id": 6,
+          "categoryId": "category_web",
+          "img": "images/pictures/testimonial-person-male-1.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://koli-koli.bj/",
+                "tooltipString": "open_website",
+                "faIcon": "fa-solid fa-link"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/screenshots/solutech-1.png",
+              "images/pictures/screenshots/solutech-2.png",
+              "images/pictures/screenshots/solutech-3.png",
+              "images/pictures/screenshots/solutech-4.png",
+              "images/pictures/screenshots/solutech-5.png"
+            ],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "KOLI-KOLI",
+              "text": "An e-commerce site developed with <b>WordPress</b> and <b>WooCommerce</b>, dedicated to the sale of trendy t-shirts. It offers a clear and modern online store, a secure payment system, and simplified order management to provide a smooth shopping experience for customers.",
+              "tags": ["WooCommerce", "T-shirts", "E-commerce"]
+            },
+            "es": {
+              "title": "Sweet Scoops",
+              "text": "Un sitio web de recetas construido con <b>WordPress</b> y WooCommerce, con una rica colección de <b>recetas de postres</b> y una plataforma de comercio electrónico integrada.",
+              "tags": ["WooCommerce", "Comida", "Postres"]
+            },
+            "fr": {
+              "title": "KOLI-KOLI",
+              "text": "Un site e-commerce développé avec <b>WordPress</b> et <b>WooCommerce</b>, dédié à la vente de t-shirts tendance. Il propose une boutique en ligne claire et moderne, un système de paiement sécurisé et une gestion simplifiée des commandes pour offrir une expérience d'achat fluide aux clients.",
+              "tags": ["WooCommerce", "t-shirts", "e-commerce"]
+            },
+            "ko": {
+              "title": "Sweet Scoops",
+              "text": "<b>WordPress</b>와 WooCommerce로 구축된 레시피 웹사이트로, 풍부한 <b>디저트 레시피</b> 모음과 통합된 전자상거래 플랫폼을 제공합니다.",
+              "tags": ["WooCommerce", "음식", "디저트"]
+            }
+          }
+        },
+        {
+          "id": 7,
+          "categoryId": "category_web",
+          "img": "images/pictures/solutech-universe-logo.png",
+          "faIcon": "fa-solid fa-guitar",
+          "faIconColors": { "bg": "#7671AA", "fill": "#EEEEEE" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://google.com",
+                "tooltipString": "open_website",
+                "faIcon": "fa-solid fa-link"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/screenshots/kolikoli-1.png",
+              "images/pictures/screenshots/kolikoli-2.png",
+              "images/pictures/screenshots/kolikoli-3.png",
+              "images/pictures/screenshots/kolikoli-4.png",
+              "images/pictures/screenshots/kolikoli-5.png"
+            ],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Solutech universe",
+              "text": "A professional showcase site redesigned with <b>WordPress</b> to improve the visibility and presentation of the company's digital services. This dynamic site highlights digital solutions, completed projects, and key information through a modern, responsive interface optimized for fluid navigation.",
+              "tags": ["Service", "Solutech", "Frontend"]
+            },
+            "es": {
+              "title": "RockVerse",
+              "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
+              "tags": ["Django", "Música", "Rock"]
+            },
+            "fr": {
+              "title": "Solutech universe",
+              "text": "Site vitrine professionnel refondu avec <b>WordPress</b> pour améliorer la visibilité et la présentation des services numériques de l’entreprise. Ce site dynamique met en avant les solutions digitales proposées, les projets réalisés et les informations clés à travers une interface moderne, responsive et optimisée pour une navigation fluide.",
+              "tags": ["service", "Solutech", "Frontend"]
+            },
+            "ko": {
+              "title": "RockVerse",
+              "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
+              "tags": ["Django", "Música", "Rock"]
+            },
+            "fr": {
+              "title": "Colyse",
+              "text": "Une application de gestion de livraisons de colis destinée aux clients d’un service de transport local. Elle facilite la prise en charge, le suivi et la gestion des colis depuis la demande d’envoi jusqu’à la livraison finale..",
+              "tags": ["React.js", "Flutter", "Firebase"]
+            },
+            "ko": {
+              "title": "QuickDrop",
+              "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
+              "tags": ["React Native", "배송", "실시간 추적"]
+            }
+          }
+        },
+        {
+          "id": 10,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-hands-holding-child",
+          "faIconColors": { "bg": "#2ecc71", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://bewell.conceptic.io/",
+                "tooltipString": "open_website",
+                "faIcon": "fa-solid fa-link"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/bewell-1.png",
+              "images/pictures/bewell-2.png",
+              "images/pictures/bewell-3.png",
+              "images/pictures/bewell-4.png",
+              "images/pictures/bewell-5.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "Bewell",
+              "text": "A monolithic website designed to manage members, contributions, and donations for the NGO MEE-Bewell. Developed using <b>React</b> and <b>Laravel Inertia</b>.",
+              "tags": ["React", "Laravel", "Inertia"]
+            },
+            "fr": {
+              "title": "Bewell",
+              "text": "Un site web monolithique permettant de gérer les membres, les cotisations et les dons de l’ONG MEE-Bewell. Conçu avec <b>React</b> et <b>Laravel Inertia</b>.",
+              "tags": ["React", "Laravel", "Inertia"]
+            },
+            "es": { "text": "", "tags": [] },
+            "ko": { "text": "", "tags": [] }
+          }
+        },
+        {
+          "id": 11,
+          "categoryId": "category_apps",
+          "img": "",
+          "faIcon": "fa-solid fa-plane-departure",
+          "faIconColors": { "bg": "#3498db", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://dev.flyrights.org/",
+                "tooltipString": "open_website",
+                "faIcon": "fa-solid fa-link"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/flyrights-web-1.png",
+              "images/pictures/flyrights-web-2.png",
+              "images/pictures/flyrights-web-3.png",
+              "images/pictures/flyrights-web-4.png",
+              "images/pictures/flyrights-web-5.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "FLYRIGHTS",
+              "text": "A web application that helps air travelers claim compensation and manage their files. The frontend is built with <b>React</b> for a seamless user experience.",
+              "tags": ["React", "Frontend", "Travel"]
+            },
+            "fr": {
+              "title": "FLYRIGHTS",
+              "text": "Une application web qui aide les voyageurs aériens à obtenir leurs indemnisations et à gérer leurs dossiers. Développée avec un frontend en <b>React</b>.",
+              "tags": ["React", "Frontend", "Voyage"]
+            },
+            "es": { "text": "", "tags": [] },
+            "ko": { "text": "", "tags": [] }
+          }
+        },
+        {
+          "id": 12,
+          "categoryId": "category_utilities",
+          "img": "",
+          "faIcon": "fa-solid fa-gears",
+          "faIconColors": { "bg": "#e67e22", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://api.flyrights.org/",
+                "tooltipString": "open_website",
+                "faIcon": "fa-solid fa-link"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/screenshots/flyrights-api-1.png",
+              "images/pictures/screenshots/flyrights-api-2.png",
+              "images/pictures/screenshots/flyrights-api-3.png",
+              "images/pictures/screenshots/flyrights-api-4.png",
+              "images/pictures/screenshots/flyrights-api-5.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "FLYRIGHTS API",
+              "text": "A robust <b>RESTful API</b> built with <b>Laravel</b> and <b>Sanctum</b> to power the FLYRIGHTS platform, handling authentication and complex file management.",
+              "tags": ["Laravel", "Sanctum", "API"]
+            },
+            "fr": {
+              "title": "FLYRIGHTS API",
+              "text": "L'API REST de la plateforme FLYRIGHTS. Développée avec <b>Laravel</b> et <b>Sanctum</b>, elle assure la gestion sécurisée des dossiers et des utilisateurs.",
+              "tags": ["Laravel", "Sanctum", "API"]
+            },
+            "es": { "text": "", "tags": [] },
+            "ko": { "text": "", "tags": [] }
+          }
+        },
+        {
+          "id": 13,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-briefcase",
+          "faIconColors": { "bg": "#9b59b6", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://portfolio.conceptic.io/",
+                "tooltipString": "open_website",
+                "faIcon": "fa-solid fa-link"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/portfolio-conceptic-1.png",
+              "images/pictures/portfolio-conceptic-2.png",
+              "images/pictures/portfolio-conceptic-3.png",
+              "images/pictures/portfolio-conceptic-4.png",
+              "images/pictures/portfolio-conceptic-5.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "Portfolio Conceptic",
+              "text": "A showcase site specifically designed to manage and display the project portfolio of Conceptic.io SARL. Built with <b>React</b>.",
+              "tags": ["React", "Showcase"]
+            },
+            "fr": {
+              "title": "Portfolio Conceptic",
+              "text": "Un menu site gérant le portfolio de Conceptic.io SARL. Réalisé avec <b>React</b> pour une navigation fluide et dynamique.",
+              "tags": ["React", "Vitrine"]
+            },
+            "es": { "text": "", "tags": [] },
+            "ko": { "text": "", "tags": [] }
+          }
+        },
+        {
+          "id": 14,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-handshake-angle",
+          "faIconColors": { "bg": "#16a085", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [{ "href": "https://www.jura-afrique-benin.org/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link" }],
+            "screenshots": [
+              "images/pictures/jura-afrique-1.png",
+              "images/pictures/jura-afrique-2.png",
+              "images/pictures/jura-afrique-3.png",
+              "images/pictures/jura-afrique-4.png",
+              "images/pictures/jura-afrique-5.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "Jura-Afrique-Bénin",
+              "text": "A management platform for the Jura-Afrique-Bénin NGO, featuring a public website and a back office for managing the blog, partners, projects, donations, and more.",
+              "tags": ["Web", "NGO", "Management"]
+            },
+            "fr": {
+              "title": "Jura-Afrique-Bénin",
+              "text": "Développement d’une plateforme de gestion pour l’ONG Jura-Afrique-Bénin, comprenant un site public et un back-office pour gérer le blog, les partenaires, les projets, les dons et d’autres contenus.",
+              "tags": ["Web", "ONG", "Gestion"]
+            },
+            "es": { "text": "", "tags": [] },
+            "ko": { "text": "", "tags": [] }
+          }
+        },
+        {
+          "id": 15,
+          "categoryId": "category_apps",
+          "img": "",
+          "faIcon": "fa-solid fa-list-check",
+          "faIconColors": { "bg": "#2980b9", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [{ "href": "https://taskio.conceptic.io/f/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link" }],
+            "screenshots": [
+              "images/pictures/taskio-1.png",
+              "images/pictures/taskio-2.png",
+              "images/pictures/taskio-3.png",
+              "images/pictures/taskio-4.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "TASKIO",
+              "text": "Development of the complaint management module and contribution to regression testing. The technical environment includes <b>Docker</b> and <b>PostgreSQL</b>.",
+              "tags": ["Docker", "PostgreSQL", "Testing"]
+            },
+            "fr": {
+              "title": "TASKIO",
+              "text": "Développement du module de gestion des plaintes et participation aux tests de régression. L’environnement technique comprend <b>Docker</b> et <b>PostgreSQL</b>.",
+              "tags": ["Docker", "PostgreSQL", "Tests"]
+            },
+            "es": { "text": "", "tags": [] },
+            "ko": { "text": "", "tags": [] }
+          }
+        },
+        {
+          "id": 16,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-building",
+          "faIconColors": { "bg": "#34495e", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [{ "href": "https://new.conceptic.io/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link" }],
+            "screenshots": [
+              "images/pictures/screenshots/concepticio-1.png",
+              "images/pictures/screenshots/concepticio-2.png",
+              "images/pictures/screenshots/concepticio-3.png",
+              "images/pictures/screenshots/concepticio-4.png",
+              "images/pictures/screenshots/concepticio-5.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "Concepticio",
+              "text": "Development of the company's institutional website using <b>Laravel</b>, <b>Inertia.js</b>, and <b>React</b>, including content administration in French and English and user experience improvements. Also contributed to production deployment and testing.",
+              "tags": ["Laravel", "Inertia.js", "React"]
+            },
+            "fr": {
+              "title": "Concepticio",
+              "text": "Développement du site institutionnel de la société avec <b>Laravel</b>, <b>Inertia.js</b> et <b>React</b>, comprenant l’administration et la gestion de contenus en français et en anglais, ainsi que l’amélioration de l’expérience utilisateur. Participation au déploiement et aux tests en production.",
+              "tags": ["Laravel", "Inertia.js", "React"]
+            },
+            "es": { "text": "", "tags": [] },
+            "ko": { "text": "", "tags": [] }
+          }
+        },
+        {
+          "id": 17,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-house-medical",
+          "faIconColors": { "bg": "#27ae60", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [{ "href": "https://adgong.org/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link" }],
+            "screenshots": [
+              "images/pictures/adg-1.png",
+              "images/pictures/adg-2.png",
+              "images/pictures/adg-3.png",
+              "images/pictures/adg-4.png",
+              "images/pictures/adg-5.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "ADG System",
+              "text": "Development of a home healthcare management platform for the ADG NGO, covering appointment scheduling, healthcare provider assignment, care, provider and client contracts, and payments. Built with a <b>Node.js</b> backend and <b>React</b> frontend.",
+              "tags": ["Node.js", "React", "Healthcare"]
+            },
+            "fr": {
+              "title": "Système ADG",
+              "text": "Développement d’une plateforme de gestion des soins à domicile pour l’ONG ADG : prise de rendez-vous, affectation des prestataires médicaux, suivi des soins, gestion des contrats prestataires et clients, et paiements. Stack : backend <b>Node.js</b> et frontend <b>React</b>.",
+              "tags": ["Node.js", "React", "Santé"]
+            },
+            "es": { "text": "", "tags": [] },
+            "ko": { "text": "", "tags": [] }
+          }
+        },
+        {
+          "id": 18,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-hand-holding-heart",
+          "faIconColors": { "bg": "#e67e22", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [{ "href": "https://ape-ong.org/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link" }],
+            "screenshots": [
+              "images/pictures/ape-1.png",
+              "images/pictures/ape-2.png",
+              "images/pictures/ape-3.png",
+              "images/pictures/ape-4.png",
+              "images/pictures/ape-5.png"
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "APE System",
+              "text": "Development of a showcase website for the APE NGO, presenting the organization and providing a back office to manage donations, the blog, and projects. Built as a monolithic application with <b>Laravel</b>, <b>Inertia</b>, and <b>React</b>.",
+              "tags": ["Laravel", "Inertia", "React"]
+            },
+            "fr": {
+              "title": "Système APE",
+              "text": "Développement d’un site vitrine pour l’ONG APE, présentant l’organisation et intégrant un back-office de gestion des dons, du blog et des projets. Application monolithique réalisée avec <b>Laravel</b>, <b>Inertia</b> et <b>React</b>.",
+              "tags": ["Laravel", "Inertia", "React"]
+            },
+            "es": { "text": "", "tags": [] },
+            "ko": { "text": "", "tags": [] }
+          }
+        },
+        {
+          "id": 19,
+          "categoryId": "category_utilities",
+          "img": "",
+          "faIcon": "fa-solid fa-database",
+          "faIconColors": { "bg": "#7f8c8d", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [{ "href": "https://medinode.vercel.app/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link" }],
+            "screenshots": []
+          },
+          "locales": {
+            "en": {
+              "title": "MediNode - Master's Project",
+              "text": "Design and development of a distributed architecture for electronic medical records. The project combines <b>Laravel</b> and <b>React</b> with <b>MySQL 8</b> replication between multiple healthcare centers and a central database, using <b>Docker</b>.",
+              "tags": ["Laravel", "React", "MySQL", "Docker"]
+            },
+            "fr": {
+              "title": "MediNode - Projet de master",
+              "text": "Conception et développement d’une architecture distribuée pour les dossiers médicaux électroniques. Le projet associe <b>Laravel</b> et <b>React</b> à la réplication de <b>MySQL 8</b> entre plusieurs centres de santé et une base centrale, avec <b>Docker</b>.",
+              "tags": ["Laravel", "React", "MySQL", "Docker"]
+            },
+            "es": { "text": "", "tags": [] },
+            "ko": { "text": "", "tags": [] }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
     "name": "Arielle NOUANTI",
 
-    "profilePictureUrl": "images/pictures/profile-picture.jpg",
+    "profilePictureUrl": "images/pictures/profile-picture.png",
     "resumePdfUrl": "",
 
     "statusCircleVisible": true,
@@ -14,10 +14,10 @@
             "localized_name_stylized": " [[Arielle {{NOUANTI}}]]",
             "status_message_available_for_freelance": "Available for freelance!",
             "roles": [
+                " Software Engineer",
                 "Backend Developer",
                 "Frontend Developer",
-                "DevOps Engineer",
-                "UX Designer"
+                "Full-stack Developer"
             ]
         },
         "es": {
@@ -32,6 +32,9 @@
         "fr": {
             "status_message_available_for_freelance": "Disponible pour freelance !",
             "roles": [
+                "Ingénieure Logiciel",
+                "Développeuse backend",
+                "Développeuse frontend",
                 "Développeuse full-stack"
                 
                 
