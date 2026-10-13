@@ -563,13 +563,13 @@
           "locales": {
             "en": {
               "title": "TASKIO",
-              "text": "Development of the complaint management module and contribution to regression testing. The technical environment includes <b>Docker</b> and <b>PostgreSQL</b>.",
-              "tags": ["Docker", "PostgreSQL", "Testing"]
+              "text": "Development of the complaint management module,Redesign and contribution to regression testing. The technical environment includes <b>Nodejs</b>, <b>Docker</b> and <b>PostgreSQL</b>.",
+              "tags": ["Docker", "PostgreSQL", "Node.js"]
             },
             "fr": {
               "title": "TASKIO",
-              "text": "Développement du module de gestion des plaintes et participation aux tests de régression. L’environnement technique comprend <b>Docker</b> et <b>PostgreSQL</b>.",
-              "tags": ["Docker", "PostgreSQL", "Tests"]
+              "text": "Développement du module de gestion des plaintes,refonte et participation aux tests de régression. L’environnement technique comprend <b>Nodejs</b>,<b>Docker</b> et <b>PostgreSQL</b>.",
+              "tags": ["Docker", "PostgreSQL", "Node.js"]
             },
             "es": { "text": "", "tags": [] },
             "ko": { "text": "", "tags": [] }
